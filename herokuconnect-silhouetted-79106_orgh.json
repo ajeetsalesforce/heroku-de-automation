@@ -1,0 +1,3656 @@
+{
+    "mappings": [
+      {
+        "object_name": "ACV_Rep_TD__c",
+        "config": {
+          "access": "read_write",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "Period__c": {
+              
+            },
+            "Sales_Segment__c": {
+              
+            },
+            "Attain_D2E__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "Won_All__c": {
+              
+            },
+            "ACV_All__c": {
+              
+            },
+            "LastModifiedDate": {
+              
+            },
+            "OwnerId": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Target_All__c": {
+              
+            },
+            "LastModifiedById": {
+              
+            },
+            "Sales_ID__c": {
+              
+            },
+            "Won_D2E__c": {
+              
+            },
+            "Rep_Name__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "ACV_D2E__c": {
+              
+            },
+            "Target_D2E__c": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "Id": {
+              
+            },
+            "Attain_All__c": {
+              
+            },
+            "Rep_s_Commit__c": {
+              
+            }
+          },
+          "indexes": {
+            "LastModifiedDate": {
+              "unique": false
+            },
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          },
+          "applied_at": "2019-01-31T15:56:19.315458Z"
+        }
+      },
+      {
+        "object_name": "ACV_Rep_TVA__c",
+        "config": {
+          "access": "read_write",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "Sales_Segment__c": {
+              
+            },
+            "ACV_FY__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "Won_All__c": {
+              
+            },
+            "ACV_All__c": {
+              
+            },
+            "LastModifiedDate": {
+              
+            },
+            "OwnerId": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Target_All__c": {
+              
+            },
+            "LastModifiedById": {
+              
+            },
+            "Sales_ID__c": {
+              
+            },
+            "Won_D2E__c": {
+              
+            },
+            "Rep_Name__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "ACV_Mo__c": {
+              
+            },
+            "ACV_D2E__c": {
+              
+            },
+            "Target_D2E__c": {
+              
+            },
+            "Id": {
+              
+            },
+            "ACV_Qtr__c": {
+              
+            }
+          },
+          "indexes": {
+            "LastModifiedDate": {
+              "unique": false
+            },
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          },
+          "applied_at": "2019-01-31T16:02:56.174351Z"
+        }
+      },
+      {
+        "object_name": "ACV_Segment_TD__c",
+        "config": {
+          "access": "read_write",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "Period__c": {
+              
+            },
+            "Sales_Segment__c": {
+              
+            },
+            "Won_Partner__c": {
+              
+            },
+            "Attain_D2E__c": {
+              
+            },
+            "ACV_Partner__c": {
+              
+            },
+            "Target_Partner__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "Won_All__c": {
+              
+            },
+            "ACV_All__c": {
+              
+            },
+            "OwnerId": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Target_All__c": {
+              
+            },
+            "Attain_Partner__c": {
+              
+            },
+            "Won_D2E__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "ACV_D2E__c": {
+              
+            },
+            "Target_D2E__c": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "Id": {
+              
+            },
+            "Attain_All__c": {
+              
+            }
+          },
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          }
+        }
+      },
+      {
+        "object_name": "ACV_Segment_TVA__c",
+        "config": {
+          "access": "read_write",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "Sales_Segment__c": {
+              
+            },
+            "Won_Partner__c": {
+              
+            },
+            "ACV_FY__c": {
+              
+            },
+            "ACV_Partner__c": {
+              
+            },
+            "Target_Partner__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "Won_All__c": {
+              
+            },
+            "ACV_All__c": {
+              
+            },
+            "OwnerId": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Target_All__c": {
+              
+            },
+            "Won_D2E__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "ACV_Mo__c": {
+              
+            },
+            "ACV_D2E__c": {
+              
+            },
+            "Target_D2E__c": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "Id": {
+              
+            },
+            "ACV_Qtr__c": {
+              
+            }
+          },
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          }
+        }
+      },
+      {
+        "object_name": "ACV_WW_TD__c",
+        "config": {
+          "access": "read_write",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "Period__c": {
+              
+            },
+            "Won_Partner__c": {
+              
+            },
+            "Attain_D2E__c": {
+              
+            },
+            "ACV_Partner__c": {
+              
+            },
+            "Attain_Covered__c": {
+              
+            },
+            "Target_Partner__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "Won_All__c": {
+              
+            },
+            "ACV_All__c": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Target_All__c": {
+              
+            },
+            "Attain_Partner__c": {
+              
+            },
+            "Won_D2E__c": {
+              
+            },
+            "Won_Covered__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "ACV_D2E__c": {
+              
+            },
+            "ACV_Covered__c": {
+              
+            },
+            "Target_D2E__c": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "Id": {
+              
+            },
+            "Target_Covered__c": {
+              
+            },
+            "Attain_All__c": {
+              
+            }
+          },
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          },
+          "applied_at": "2018-01-15T19:52:50.291236Z"
+        }
+      },
+      {
+        "object_name": "ACV_WW_TVA__c",
+        "config": {
+          "access": "read_write",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "Won_Partner__c": {
+              
+            },
+            "ACV_FY__c": {
+              
+            },
+            "ACV_Partner__c": {
+              
+            },
+            "Target_Partner__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "Won_All__c": {
+              
+            },
+            "ACV_All__c": {
+              
+            },
+            "OwnerId": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Target_All__c": {
+              
+            },
+            "Won_D2E__c": {
+              
+            },
+            "Won_Covered__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "ACV_Mo__c": {
+              
+            },
+            "ACV_D2E__c": {
+              
+            },
+            "ACV_Covered__c": {
+              
+            },
+            "Target_D2E__c": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "Id": {
+              
+            },
+            "Target_Covered__c": {
+              
+            },
+            "ACV_Qtr__c": {
+              
+            }
+          },
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          },
+          "applied_at": "2018-01-15T19:53:54.826462Z"
+        }
+      },
+      {
+        "object_name": "Account",
+        "config": {
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "External_ID__c": {
+              "unique": true
+            },
+            "Id": {
+              "unique": true
+            },
+            "LastModifiedDate": {
+              "unique": false
+            },
+            "Org62AccountID__c": {
+              "unique": false
+            },
+            "Org62_Heroku_AE_User__c": {
+              "unique": false
+            }
+          },
+          "sf_max_daily_api_calls": 30000,
+          "access": "read_write",
+          "upsert_field": "External_ID__c",
+          "applied_at": "2024-04-01T17:56:33.400649Z",
+          "sf_polling_seconds": 600,
+          "sf_notify_enabled": false,
+          "fields": {
+            "PTC_Contact_Legible_Notes__c": {
+              
+            },
+            "Direct_Rep_Name__c": {
+              
+            },
+            "Jigsaw": {
+              
+            },
+            "Space_License_Start_Date__c": {
+              
+            },
+            "DupeAllowed__c": {
+              
+            },
+            "EAE_Start_Date__c": {
+              
+            },
+            "PTC_Contact_Legible__c": {
+              
+            },
+            "Primary_Technical_Contact__c": {
+              
+            },
+            "Portfolio_Engaged_Date__c": {
+              
+            },
+            "EAE_Assignment_Reason__c": {
+              
+            },
+            "Org_62_AOV__c": {
+              
+            },
+            "Sales_Override_City_Address__c": {
+              
+            },
+            "Sales_Segment__c": {
+              
+            },
+            "BillingStateCode": {
+              
+            },
+            "AOV_Override_Reason__c": {
+              
+            },
+            "Partner_License_Start_Date__c": {
+              
+            },
+            "System_Master_Account__c": {
+              
+            },
+            "ShippingState": {
+              
+            },
+            "Portfolio_Backfilled__c": {
+              
+            },
+            "Org62_Organization_Status__c": {
+              
+            },
+            "VAE_Program__c": {
+              
+            },
+            "NumberOfEmployees": {
+              
+            },
+            "Data_License_Start_Date__c": {
+              
+            },
+            "Connect_License_Start_Date__c": {
+              
+            },
+            "Actual_Dyno_Hour_Usage__c": {
+              
+            },
+            "AttritionNote__c": {
+              
+            },
+            "Process_Requested__c": {
+              
+            },
+            "ParentId": {
+              
+            },
+            "Accounts_to_be_Processed__c": {
+              
+            },
+            "Org62_Data_Storage_Used_MB__c": {
+              
+            },
+            "Portfolio_Backfill_Requested_Date__c": {
+              
+            },
+            "RecordTypeId": {
+              
+            },
+            "Total_App_Requests__c": {
+              
+            },
+            "ShippingPostalCode": {
+              
+            },
+            "BillingCity": {
+              
+            },
+            "DEOpportunityCount__c": {
+              
+            },
+            "Org62_Non_Profit_Status__c": {
+              
+            },
+            "PTC_Email__c": {
+              
+            },
+            "DirectRepStartDate__c": {
+              
+            },
+            "Org62_Heroku_AOV_Update__c": {
+              
+            },
+            "Credits_Approved__c": {
+              
+            },
+            "Sales_Segment_Previous_FY__c": {
+              
+            },
+            "Active_Enterprise_License__c": {
+              
+            },
+            "AccountSource": {
+              
+            },
+            "BillingCountryCode": {
+              
+            },
+            "D2E_Prediction_Previous_Vaue__c": {
+              
+            },
+            "ShippingCountry": {
+              
+            },
+            "EAE_Working__c": {
+              
+            },
+            "Org62_Territory_Stripped__c": {
+              
+            },
+            "VAE_Contact__c": {
+              
+            },
+            "Licensed_Addon_Qty__c": {
+              
+            },
+            "System_Master_Flow__c": {
+              
+            },
+            "EAE_Passed_to_Portfolio_Rep__c": {
+              
+            },
+            "Account_Auto_create__c": {
+              
+            },
+            "Feature_Requirement__c": {
+              
+            },
+            "Security_Compliance__c": {
+              
+            },
+            "Org_62_Territory_Code__c": {
+              
+            },
+            "Paying__c": {
+              
+            },
+            "DE_Exception_Direct_Keeps_Billable_Spend__c": {
+              
+            },
+            "LDP_Status__c": {
+              
+            },
+            "VAE_Program_Responded_Date__c": {
+              
+            },
+            "Heroku_Connect_Plan__c": {
+              
+            },
+            "Connect_License_Stop_Date__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "Sales_Override_Street_Address__c": {
+              
+            },
+            "Data_License_Stop_Date__c": {
+              
+            },
+            "D2E_Prediction__c": {
+              
+            },
+            "Credits_End_Date__c": {
+              
+            },
+            "Org62_orgstatus__c": {
+              
+            },
+            "EAE_Passed_to_Co_Prime__c": {
+              
+            },
+            "Partner_License_Stop_Date__c": {
+              
+            },
+            "AWS_Region__c": {
+              
+            },
+            "Oppt_PB_YTD__c": {
+              
+            },
+            "AllAttritionNotes__c": {
+              
+            },
+            "No_Account_in_Org62__c": {
+              
+            },
+            "Sales_Override_Country__c": {
+              
+            },
+            "Org62_Data_Storage_Allowance_MB__c": {
+              
+            },
+            "LastModifiedDate": {
+              
+            },
+            "hold_yn__c": {
+              
+            },
+            "Org62_Address_Zip_Code__c": {
+              
+            },
+            "OwnerId": {
+              
+            },
+            "DirectRepEndDate__c": {
+              
+            },
+            "IsPersonAccount": {
+              
+            },
+            "Org62_Address_City__c": {
+              
+            },
+            "Salesforce_Region__c": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "Space_License_Stop_Date__c": {
+              
+            },
+            "Space_Licensed_Qty__c": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Portfolio_Working_Date__c": {
+              
+            },
+            "Org62_Address_Update__c": {
+              
+            },
+            "ShippingStateCode": {
+              
+            },
+            "LastModifiedById": {
+              
+            },
+            "Account_Sales_Level_2__c": {
+              
+            },
+            "Holdover_Until__c": {
+              
+            },
+            "Process_Completed_Date__c": {
+              
+            },
+            "PTC_Last_Modified__c": {
+              
+            },
+            "ShippingStreet": {
+              
+            },
+            "org62_platform_ae__c": {
+              
+            },
+            "Sales_Override_State__c": {
+              
+            },
+            "Support_Notes__c": {
+              
+            },
+            "D2E_Prediction_Update__c": {
+              
+            },
+            "Actual_Addon_Usage__c": {
+              
+            },
+            "D2E_Prediction_number__c": {
+              
+            },
+            "Account_Sales_Level_1__c": {
+              
+            },
+            "Partner_Licensed_Qty__c": {
+              
+            },
+            "Holdover_Reason__c": {
+              
+            },
+            "LastActivityDate": {
+              
+            },
+            "AttritionReason__c": {
+              
+            },
+            "BillingPostalCode": {
+              
+            },
+            "Credits_Start_Date__c": {
+              
+            },
+            "Connect_Licensed_Qty__c": {
+              
+            },
+            "External_ID__c": {
+              
+            },
+            "Dyn_License_Start_Date__c": {
+              
+            },
+            "Data_Licensed_Qty__c": {
+              
+            },
+            "Account_Health__c": {
+              
+            },
+            "Heroku_Connect_Synced_Rows__c": {
+              
+            },
+            "Org62_Platform_AE_email__c": {
+              
+            },
+            "Addon_License_Stop_Date__c": {
+              
+            },
+            "ShippingCountryCode": {
+              
+            },
+            "Org62_Address_Street__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "BillingState": {
+              
+            },
+            "Account_Invoice_State__c": {
+              
+            },
+            "EAE_Engaged__c": {
+              
+            },
+            "Employee_Range__c": {
+              
+            },
+            "Org62_Address_Country__c": {
+              
+            },
+            "JigsawCompanyId": {
+              
+            },
+            "Enterprise_Account_ID__c": {
+              
+            },
+            "Org62_AOV_Band__c": {
+              
+            },
+            "Sales_Override_Zip_Code__c": {
+              
+            },
+            "Enterprise_Account_UUID__c": {
+              
+            },
+            "runrate__c": {
+              
+            },
+            "ShippingCity": {
+              
+            },
+            "Contact_Role_History__c": {
+              
+            },
+            "Credits_Admin__c": {
+              
+            },
+            "Org62_Heroku_AE_User__c": {
+              
+            },
+            "Auto_Creation_Type__c": {
+              
+            },
+            "cbit__Clearbit__c": {
+              
+            },
+            "Org62_RecordType__c": {
+              
+            },
+            "Portfolio_Status__c": {
+              
+            },
+            "Enterprise_Account_ID_varchar__c": {
+              
+            },
+            "Space_Actual_Usage__c": {
+              
+            },
+            "Territory_Mapping__c": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "Type": {
+              
+            },
+            "Licensed_Dyno_Qty__c": {
+              
+            },
+            "Actual_Dyno_Usage__c": {
+              
+            },
+            "Org62AccountID__c": {
+              
+            },
+            "Website": {
+              
+            },
+            "BillingCountry": {
+              
+            },
+            "Id": {
+              
+            },
+            "EAE_Status__c": {
+              
+            },
+            "EAE_End_Date__c": {
+              
+            },
+            "Website_Domain__c": {
+              
+            },
+            "Addon_License_Start_Date__c": {
+              
+            },
+            "Licensed_Dyno_Hour_Qty__c": {
+              
+            },
+            "CC_Acct_ID__c": {
+              
+            },
+            "Dyn_License_Stop_Date__c": {
+              
+            },
+            "Org62_Address_State__c": {
+              
+            },
+            "Partner_Actual_Usage__c": {
+              
+            },
+            "Direct_Rep__c": {
+              
+            },
+            "Description": {
+              
+            },
+            "AnnualRevenue": {
+              
+            },
+            "Data_Actual_Usage__c": {
+              
+            },
+            "Industry": {
+              
+            },
+            "BillingStreet": {
+              
+            },
+            "Org62_Core_AE__c": {
+              
+            },
+            "Org_62_Account__c": {
+              
+            },
+            "EAE_Assigned__c": {
+              
+            }
+          }
+        }
+      },
+      {
+        "object_name": "Account_Domains__c",
+        "config": {
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "External_ID__c": {
+              "unique": true
+            },
+            "Account__c": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          },
+          "sf_max_daily_api_calls": 30000,
+          "access": "read_write",
+          "upsert_field": "External_ID__c",
+          "applied_at": "2018-09-17T20:23:26.328870Z",
+          "sf_polling_seconds": 600,
+          "sf_notify_enabled": false,
+          "fields": {
+            "Account_Domain_Auto_create__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "Account_Record_Type__c": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "External_ID__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "Account__c": {
+              
+            },
+            "Account__r__External_ID__c": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "Id": {
+              
+            },
+            "Domain__c": {
+              
+            }
+          }
+        }
+      },
+      {
+        "object_name": "Commit_History_New__c",
+        "config": {
+          "access": "read_write",
+          "sf_notify_enabled": true,
+          "sf_polling_seconds": 300,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "CQ_Upside__c": {
+              
+            },
+            "CQ_Upside_M3__c": {
+              
+            },
+            "Commit_Lookup__c": {
+              
+            },
+            "CQ_Upside_M2__c": {
+              
+            },
+            "CQ_Upside_M1__c": {
+              
+            },
+            "Last_Commit__c": {
+              
+            },
+            "Sales_Segment__c": {
+              
+            },
+            "Sales_Name__c": {
+              
+            },
+            "CQ_Commit_M3__c": {
+              
+            },
+            "CQ_Commit_M2__c": {
+              
+            },
+            "CQ_Commit_M1__c": {
+              
+            },
+            "Type__c": {
+              
+            },
+            "History_Date__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "NQ_Commit__c": {
+              
+            },
+            "Owner__c": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Sales_ID__c": {
+              
+            },
+            "NQ_Upside__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "CM_Commit__c": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "Id": {
+              
+            },
+            "CQ_Commit__c": {
+              
+            },
+            "CM_Upside__c": {
+              
+            }
+          },
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          },
+          "applied_at": "2018-03-16T20:13:48.180200Z"
+        }
+      },
+      {
+        "object_name": "Commit_New__c",
+        "config": {
+          "access": "read_write",
+          "sf_notify_enabled": true,
+          "sf_polling_seconds": 300,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "CQ_Upside__c": {
+              
+            },
+            "CQ_Upside_M3__c": {
+              
+            },
+            "CQ_Upside_M2__c": {
+              
+            },
+            "Notes__c": {
+              
+            },
+            "CQ_Upside_M1__c": {
+              
+            },
+            "Sales_Segment__c": {
+              
+            },
+            "CQ_Commit_M3__c": {
+              
+            },
+            "CQ_Commit_M2__c": {
+              
+            },
+            "LastViewedDate": {
+              
+            },
+            "CQ_Commit_M1__c": {
+              
+            },
+            "Type__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "LastModifiedDate": {
+              
+            },
+            "OwnerId": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "Days_Since_Last_Commit__c": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Next_Qtr_Commit__c": {
+              
+            },
+            "LastModifiedById": {
+              
+            },
+            "Sales_ID__c": {
+              
+            },
+            "Next_Qtr_Upside__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "Last_Commit_Date__c": {
+              
+            },
+            "CM_Commit__c": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "Id": {
+              
+            },
+            "CQ_Commit__c": {
+              
+            },
+            "CM_Upside__c": {
+              
+            },
+            "LastReferencedDate": {
+              
+            }
+          },
+          "indexes": {
+            "LastModifiedDate": {
+              "unique": false
+            },
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          },
+          "applied_at": "2018-03-16T22:52:57.600939Z"
+        }
+      },
+      {
+        "object_name": "Enterprise_Account_Exclusion__c",
+        "config": {
+          "access": "read_only",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "Excluded_Account_ID__c": {
+              
+            },
+            "LastViewedDate": {
+              
+            },
+            "Name": {
+              
+            },
+            "LastModifiedDate": {
+              
+            },
+            "Exclusion_Reason__c": {
+              
+            },
+            "OwnerId": {
+              
+            },
+            "MayEdit": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "LastModifiedById": {
+              
+            },
+            "IsLocked": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "Enterprise_Account_ID__c": {
+              
+            },
+            "Enterprise_Account_UUID__c": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "Id": {
+              
+            },
+            "Exclude_Account__c": {
+              
+            },
+            "LastReferencedDate": {
+              
+            }
+          },
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          }
+        }
+      },
+      {
+        "object_name": "Opportunity",
+        "config": {
+          "indexes": {
+            "AccountId": {
+              "unique": false
+            },
+            "SystemModstamp": {
+              "unique": false
+            },
+            "External_ID__c": {
+              "unique": true
+            },
+            "Id": {
+              "unique": true
+            },
+            "Account__External_ID__c": {
+              "unique": false
+            },
+            "CloseDate": {
+              "unique": false
+            },
+            "LastModifiedDate": {
+              "unique": false
+            },
+            "OwnerId": {
+              "unique": false
+            },
+            "Status_WLO__c": {
+              "unique": false
+            },
+            "DirecttoEnterprise__c": {
+              "unique": false
+            },
+            "Close_Cy_Mo__c": {
+              "unique": false
+            }
+          },
+          "sf_max_daily_api_calls": 30000,
+          "access": "read_write",
+          "upsert_field": "External_ID__c",
+          "applied_at": "2022-03-03T22:47:31.836477Z",
+          "sf_polling_seconds": 300,
+          "sf_notify_enabled": true,
+          "fields": {
+            "HasOpportunityLineItem": {
+              
+            },
+            "Lead_Sales_Partner_Role__c": {
+              
+            },
+            "NonBillableOption__c": {
+              
+            },
+            "Account__External_ID__c": {
+              
+            },
+            "SalesEffortSplit__c": {
+              
+            },
+            "Net_Amount_Wtd__c": {
+              
+            },
+            "Portfolio_Opp_ID__c": {
+              
+            },
+            "Champion_Title__c": {
+              
+            },
+            "What_would_accelerate__c": {
+              
+            },
+            "Amortization_Period__c": {
+              
+            },
+            "AdditionalSFDCSolutions__c": {
+              
+            },
+            "HerokuDifferentiation__c": {
+              
+            },
+            "HoldoverOwner__c": {
+              
+            },
+            "Org_62_Amount__c": {
+              
+            },
+            "Sales_Segment__c": {
+              
+            },
+            "SalesPlay__c": {
+              
+            },
+            "Why_now__c": {
+              
+            },
+            "ForecastCategoryName": {
+              
+            },
+            "Split_Percentage__c": {
+              
+            },
+            "Reason_Lost__c": {
+              
+            },
+            "Org62_Quote_External_tenant_ID__c": {
+              
+            },
+            "CloseDate": {
+              
+            },
+            "RecordTypeId": {
+              
+            },
+            "Org_62_Close_Date__c": {
+              
+            },
+            "Auto_Update_Max_Stage__c": {
+              
+            },
+            "Org62_Account_Name__c": {
+              
+            },
+            "Sales_Segment_Previous_FY__c": {
+              
+            },
+            "Opp_Auto_create__c": {
+              
+            },
+            "AccountId": {
+              
+            },
+            "Use_Org62_Products__c": {
+              
+            },
+            "Overall_Plan__c": {
+              
+            },
+            "Why_Heroku__c": {
+              
+            },
+            "Net_Amount__c": {
+              
+            },
+            "Org62_Tenant_Owner_Email__c": {
+              
+            },
+            "StageName": {
+              
+            },
+            "Org62_Links__c": {
+              
+            },
+            "OAVerified_YN__c": {
+              
+            },
+            "Org_62_Forecast_Category__c": {
+              
+            },
+            "Solution__c": {
+              
+            },
+            "Charges_Current__c": {
+              
+            },
+            "Org62_Date_Discrepancy__c": {
+              
+            },
+            "Invoice_Ending__c": {
+              
+            },
+            "Pipeline_Entry_Date__c": {
+              
+            },
+            "Level_of_Heroku_Experience__c": {
+              
+            },
+            "OA_Verified_Date__c": {
+              
+            },
+            "CampaignId": {
+              
+            },
+            "Portfolio_Opp__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "Total_Org62_Heroku_Line_Items_adjusted__c": {
+              
+            },
+            "Use_Org62_Forecast_Data__c": {
+              
+            },
+            "IsWon": {
+              
+            },
+            "Push_Counter__c": {
+              
+            },
+            "UseCase__c": {
+              
+            },
+            "Org_62_Stage__c": {
+              
+            },
+            "Solution_Description__c": {
+              
+            },
+            "Portfolio_Account__c": {
+              
+            },
+            "LastModifiedDate": {
+              
+            },
+            "Cohort_Start_Date__c": {
+              
+            },
+            "Num_Oppts__c": {
+              
+            },
+            "Lead_SE__c": {
+              
+            },
+            "Portfolio_Adjustment_Type__c": {
+              
+            },
+            "FiscalQuarter": {
+              
+            },
+            "OwnerId": {
+              
+            },
+            "Origin_Source__c": {
+              
+            },
+            "Specific_App__c": {
+              
+            },
+            "Total_Billings_PTD__c": {
+              
+            },
+            "Org62_Quote_Status__c": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "ValueProp__c": {
+              
+            },
+            "ExistingOrgID__c": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Org62_Baseline_Amount__c": {
+              
+            },
+            "LastModifiedById": {
+              
+            },
+            "Invoice_Starting__c": {
+              
+            },
+            "Lead_Sales_Partner__c": {
+              
+            },
+            "Baseline_Amount__c": {
+              
+            },
+            "Portfolio_Net_Amount__c": {
+              
+            },
+            "LastActivityDate": {
+              
+            },
+            "Total_Org62_Heroku_Line_Items_unadjusted__c": {
+              
+            },
+            "External_ID__c": {
+              
+            },
+            "Probability": {
+              
+            },
+            "Split_Owner__c": {
+              
+            },
+            "Pro_Active_Review_Date__c": {
+              
+            },
+            "OAWorkingDate__c": {
+              
+            },
+            "Org_62_Oppt__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "Status_WLO__c": {
+              
+            },
+            "IsClosed": {
+              
+            },
+            "Adjustment__c": {
+              
+            },
+            "OAVerifiedStatus__c": {
+              
+            },
+            "Portfolio_Opp_Owner__c": {
+              
+            },
+            "LeadSource": {
+              
+            },
+            "Org_62_ACV__c": {
+              
+            },
+            "Amount": {
+              
+            },
+            "Org62_Quote_Number__c": {
+              
+            },
+            "Org_62_Owner__c": {
+              
+            },
+            "Baseline_Manual_Override__c": {
+              
+            },
+            "Heroku_Partner_Credit__c": {
+              
+            },
+            "HoldoverUntil__c": {
+              
+            },
+            "Org_62_Manager_Forecast_Judgement__c": {
+              
+            },
+            "Partners__c": {
+              
+            },
+            "Renewal_Baseline_Amount__c": {
+              
+            },
+            "ForecastCategory": {
+              
+            },
+            "Org62OppID__c": {
+              
+            },
+            "Org62_Tenant__c": {
+              
+            },
+            "CommercialStructure__c": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "BuyerRole__c": {
+              
+            },
+            "Type": {
+              
+            },
+            "ArchitectureRole__c": {
+              
+            },
+            "Primary_Competitor__c": {
+              
+            },
+            "Pricebook2Id": {
+              
+            },
+            "OABlockedDate__c": {
+              
+            },
+            "Id": {
+              
+            },
+            "Why_do_it__c": {
+              
+            },
+            "Org_62_Platform_AE__c": {
+              
+            },
+            "Invoice_Last__c": {
+              
+            },
+            "Partner__c": {
+              
+            },
+            "Org_User_core_user_id__c": {
+              
+            },
+            "Org62_Org_H_Amount_Status__c": {
+              
+            },
+            "FiscalYear": {
+              
+            },
+            "Competitors__c": {
+              
+            },
+            "ProvisioningType__c": {
+              
+            },
+            "Description": {
+              
+            },
+            "Org62_Forecast_Discrepancy__c": {
+              
+            },
+            "SyncedQuoteId": {
+              
+            },
+            "Baseline_Month__c": {
+              
+            },
+            "Org62_Quote_Record_Type__c": {
+              
+            },
+            "Deal_Types__c": {
+              
+            },
+            "Technical_Stack__c": {
+              
+            },
+            "Org62_HKU_ACV_Adjusted__c": {
+              
+            },
+            "Fiscal": {
+              
+            },
+            "Org62_Net_Amount_Discrepancy__c": {
+              
+            },
+            "DirecttoEnterprise__c": {
+              
+            },
+            "Covered_vs_Uncovered__c": {
+              
+            },
+            "Amortized_Net_Amount__c": {
+              
+            },
+            "NextStep": {
+              
+            },
+            "Portfolio_Adjustment__c": {
+              
+            },
+            "Close_Cy_Mo__c": {
+              
+            },
+            "Org62_HKU_ACV_Adjustment__c": {
+              
+            },
+            "Org62_Created_Date__c": {
+              
+            },
+            "New_or_Growth__c": {
+              
+            },
+            "Risks__c": {
+              
+            }
+          }
+        }
+      },
+      {
+        "object_name": "OpportunityContactRole",
+        "config": {
+          "access": "read_write",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "LastModifiedDate": {
+              
+            },
+            "OpportunityId": {
+              
+            },
+            "Contact__Heroku_User_ID__c": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "LastModifiedById": {
+              
+            },
+            "Role": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "IsPrimary": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "Id": {
+              
+            },
+            "ContactId": {
+              
+            }
+          },
+          "indexes": {
+            "ContactId": {
+              "unique": false
+            },
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            },
+            "LastModifiedDate": {
+              "unique": false
+            }
+          },
+          "applied_at": "2022-03-03T22:55:49.915988Z"
+        }
+      },
+      {
+        "object_name": "OpportunityLineItem",
+        "config": {
+          "indexes": {
+            "OpportunityId": {
+              "unique": false
+            },
+            "LastModifiedDate": {
+              "unique": false
+            },
+            "SystemModstamp": {
+              "unique": false
+            },
+            "External_ID__c": {
+              "unique": true
+            },
+            "Id": {
+              "unique": true
+            },
+            "Name": {
+              "unique": false
+            }
+          },
+          "sf_max_daily_api_calls": 30000,
+          "access": "read_write",
+          "upsert_field": "External_ID__c",
+          "applied_at": "2018-06-22T21:32:17.265045Z",
+          "sf_polling_seconds": 600,
+          "sf_notify_enabled": false,
+          "fields": {
+            "TAM__c": {
+              
+            },
+            "ServiceDate": {
+              
+            },
+            "TotalPrice": {
+              
+            },
+            "UnitPrice": {
+              
+            },
+            "Opportunity__External_ID__c": {
+              
+            },
+            "Source__c": {
+              
+            },
+            "Limit__c": {
+              
+            },
+            "Type__c": {
+              
+            },
+            "Quantity": {
+              
+            },
+            "Name": {
+              
+            },
+            "ListPrice": {
+              
+            },
+            "LastModifiedDate": {
+              
+            },
+            "OpportunityId": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SortOrder": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Org_62_Quantity__c": {
+              
+            },
+            "LastModifiedById": {
+              
+            },
+            "End_Date__c": {
+              
+            },
+            "Org_62_List_Price__c": {
+              
+            },
+            "External_ID__c": {
+              
+            },
+            "Org_62_Sales_Price__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "Org_62_Oppt_Line_Item__c": {
+              
+            },
+            "Org_62_Oppt_Type__c": {
+              
+            },
+            "Valid_Domains__c": {
+              
+            },
+            "Org_62_ACV__c": {
+              
+            },
+            "Start_Date__c": {
+              
+            },
+            "Is_Shield_Connect__c": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "Id": {
+              
+            },
+            "PricebookEntryId": {
+              
+            },
+            "ProductCode": {
+              
+            },
+            "Description": {
+              
+            },
+            "Org_62_Total_Price__c": {
+              
+            },
+            "Product2Id": {
+              
+            },
+            "Org_62_Adjusted_Total_Price__c": {
+              
+            }
+          }
+        }
+      },
+      {
+        "object_name": "Overage_Email_Recipients__c",
+        "config": {
+          "access": "read_only",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "CreatedDate": {
+              
+            },
+            "Id": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "Name": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "IsActive__c": {
+              
+            },
+            "Recipient_Email__c": {
+              
+            },
+            "Custom_Send__c": {
+              
+            }
+          },
+          "indexes": {
+            "Id": {
+              "unique": true
+            },
+            "SystemModstamp": {
+              "unique": false
+            }
+          },
+          "applied_at": "2020-12-11T16:49:49.477300Z"
+        }
+      },
+      {
+        "object_name": "PB_Rep_TD__c",
+        "config": {
+          "access": "read_write",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "Period__c": {
+              
+            },
+            "Sales_Rep_Name__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "PB_Attain_Amort__c": {
+              
+            },
+            "PB_Amort__c": {
+              
+            },
+            "Won_All__c": {
+              
+            },
+            "OwnerId": {
+              
+            },
+            "PB_Attain_All__c": {
+              
+            },
+            "PB_All__c": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Target_All__c": {
+              
+            },
+            "Sales_ID__c": {
+              
+            },
+            "Won_D2E__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "ACV_D2E__c": {
+              
+            },
+            "Id": {
+              
+            }
+          },
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          }
+        }
+      },
+      {
+        "object_name": "PB_Rep_TVA__c",
+        "config": {
+          "access": "read_write",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "PB_Qtr__c": {
+              
+            },
+            "Sales_Rep_Name__c": {
+              
+            },
+            "PB_FY__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "PB_Amort__c": {
+              
+            },
+            "Won_All__c": {
+              
+            },
+            "OwnerId": {
+              
+            },
+            "PB_All__c": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Target_All__c": {
+              
+            },
+            "PB_Mo__c": {
+              
+            },
+            "Sales_ID__c": {
+              
+            },
+            "Won_D2E__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "ACV_D2E__c": {
+              
+            },
+            "Id": {
+              
+            }
+          },
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          }
+        }
+      },
+      {
+        "object_name": "PB_WW_TD__c",
+        "config": {
+          "access": "read_write",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "Period__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "PB_Attain_Amort__c": {
+              
+            },
+            "PB_Amort__c": {
+              
+            },
+            "Won_All__c": {
+              
+            },
+            "OwnerId": {
+              
+            },
+            "PB_Attain_All__c": {
+              
+            },
+            "PB_All__c": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Target_All__c": {
+              
+            },
+            "Won_D2E__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "ACV_D2E__c": {
+              
+            },
+            "Id": {
+              
+            }
+          },
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          }
+        }
+      },
+      {
+        "object_name": "PB_WW_TVA__c",
+        "config": {
+          "access": "read_write",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "PB_Qtr__c": {
+              
+            },
+            "PB_FY__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "PB_Amort__c": {
+              
+            },
+            "Won_All__c": {
+              
+            },
+            "OwnerId": {
+              
+            },
+            "PB_All__c": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Target_All__c": {
+              
+            },
+            "PB_Mo__c": {
+              
+            },
+            "Won_D2E__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "ACV_D2E__c": {
+              
+            },
+            "Id": {
+              
+            }
+          },
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          }
+        }
+      },
+      {
+        "object_name": "Partner",
+        "config": {
+          "access": "read_only",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "ReversePartnerId": {
+              
+            },
+            "AccountToId": {
+              
+            },
+            "LastModifiedDate": {
+              
+            },
+            "OpportunityId": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "LastModifiedById": {
+              
+            },
+            "AccountFromId": {
+              
+            },
+            "Role": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "IsPrimary": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "Id": {
+              
+            }
+          },
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            },
+            "LastModifiedDate": {
+              "unique": false
+            }
+          },
+          "applied_at": "2022-03-03T22:53:24.881027Z"
+        }
+      },
+      {
+        "object_name": "Partner_Contact_Role__c",
+        "config": {
+          "access": "read_only",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "Contact__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "Role__c": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "Account__c": {
+              
+            },
+            "Id": {
+              
+            },
+            "Active__c": {
+              
+            }
+          },
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          },
+          "applied_at": "2018-01-28T17:04:46.779504Z"
+        }
+      },
+      {
+        "object_name": "Scrubs_Rep__c",
+        "config": {
+          "access": "read_write",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "Sales_Segment__c": {
+              
+            },
+            "Target_CQ__c": {
+              
+            },
+            "Upside_CQ__c": {
+              
+            },
+            "ACV_CQ__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "Target_CM__c": {
+              
+            },
+            "Won_CQ__c": {
+              
+            },
+            "Upside_CM__c": {
+              
+            },
+            "Commit_CQ__c": {
+              
+            },
+            "ACV_CM__c": {
+              
+            },
+            "OwnerId": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Won_CM__c": {
+              
+            },
+            "Commit_CM__c": {
+              
+            },
+            "PL_CQ__c": {
+              
+            },
+            "Sales_ID__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "Last_Commit_Date__c": {
+              
+            },
+            "PL_CM__c": {
+              
+            },
+            "Id": {
+              
+            },
+            "Rep_s_Commit__c": {
+              
+            }
+          },
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          },
+          "applied_at": "2018-01-05T21:36:13.349790Z"
+        }
+      },
+      {
+        "object_name": "Scrubs_Segment__c",
+        "config": {
+          "access": "read_write",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "Sales_Segment__c": {
+              
+            },
+            "Target_CQ__c": {
+              
+            },
+            "Upside_CQ__c": {
+              
+            },
+            "ACV_CQ__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "Target_CM__c": {
+              
+            },
+            "Won_CQ__c": {
+              
+            },
+            "Upside_CM__c": {
+              
+            },
+            "Commit_CQ__c": {
+              
+            },
+            "ACV_CM__c": {
+              
+            },
+            "OwnerId": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Won_CM__c": {
+              
+            },
+            "Commit_CM__c": {
+              
+            },
+            "PL_CQ__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "Last_Commit_Date__c": {
+              
+            },
+            "PL_CM__c": {
+              
+            },
+            "Id": {
+              
+            }
+          },
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          }
+        }
+      },
+      {
+        "object_name": "Scrubs_WW__c",
+        "config": {
+          "access": "read_write",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "Target_CQ__c": {
+              
+            },
+            "Upside_CQ__c": {
+              
+            },
+            "ACV_CQ__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "Target_CM__c": {
+              
+            },
+            "Won_CQ__c": {
+              
+            },
+            "Upside_CM__c": {
+              
+            },
+            "Commit_CQ__c": {
+              
+            },
+            "ACV_CM__c": {
+              
+            },
+            "OwnerId": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Won_CM__c": {
+              
+            },
+            "Commit_CM__c": {
+              
+            },
+            "PL_CQ__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "Last_Commit_Date__c": {
+              
+            },
+            "PL_CM__c": {
+              
+            },
+            "Id": {
+              
+            }
+          },
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          }
+        }
+      },
+      {
+        "object_name": "Strategic_Account__c",
+        "config": {
+          "access": "read_only",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "Strategic_Account_End_Date__c": {
+              
+            },
+            "Notes__c": {
+              
+            },
+            "Strategic_Account_Start_Date__c": {
+              
+            },
+            "Company_Description__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "CSA__c": {
+              
+            },
+            "Salesforce_Multi_Cloud__c": {
+              
+            },
+            "Runs_core_business_on_Heroku__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "Account__c": {
+              
+            },
+            "Feature_Request_Detail__c": {
+              
+            },
+            "Use_Case__c": {
+              
+            },
+            "Feature_Request_Other_specified__c": {
+              
+            },
+            "Id": {
+              
+            },
+            "Lyra_Pilot_Customer__c": {
+              
+            },
+            "Inclusion_Reason__c": {
+              
+            },
+            "Feature_Request__c": {
+              
+            },
+            "SF_integration_with_Heroku__c": {
+              
+            },
+            "Consumer_Facing_App__c": {
+              
+            },
+            "Referenceable__c": {
+              
+            }
+          },
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          }
+        }
+      },
+      {
+        "object_name": "System_Master_Account_Mapping__History",
+        "config": {
+          "access": "read_only",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "CreatedDate": {
+              
+            },
+            "Id": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "NewValue": {
+              
+            },
+            "OldValue": {
+              
+            },
+            "Field": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "ParentId": {
+              
+            }
+          },
+          "indexes": {
+            "Id": {
+              "unique": true
+            }
+          }
+        }
+      },
+      {
+        "object_name": "System_Master_Account_Mapping__c",
+        "config": {
+          "access": "read_only",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "System_Account__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "LastModifiedDate": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "LastModifiedById": {
+              
+            },
+            "Flow__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "Id": {
+              
+            },
+            "Linked_Account__c": {
+              
+            }
+          },
+          "indexes": {
+            "LastModifiedDate": {
+              "unique": false
+            },
+            "SystemModstamp": {
+              "unique": false
+            },
+            "Id": {
+              "unique": true
+            }
+          }
+        }
+      },
+      {
+        "object_name": "Trial_Extension_History__c",
+        "config": {
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "External_ID__c": {
+              "unique": true
+            },
+            "Id": {
+              "unique": true
+            },
+            "LastModifiedDate": {
+              "unique": false
+            }
+          },
+          "sf_max_daily_api_calls": 30000,
+          "access": "read_write",
+          "upsert_field": "External_ID__c",
+          "applied_at": "2023-08-31T16:05:47.665344Z",
+          "sf_polling_seconds": 300,
+          "sf_notify_enabled": true,
+          "fields": {
+            "Vault_Request__c": {
+              
+            },
+            "Trial_Extension_End_Date__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "LastModifiedDate": {
+              
+            },
+            "MayEdit": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "LastModifiedById": {
+              
+            },
+            "External_ID__c": {
+              
+            },
+            "IsLocked": {
+              
+            },
+            "Trial_Extension_Reason__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "Trial_Extension_Approval__c": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "Id": {
+              
+            }
+          }
+        }
+      },
+      {
+        "object_name": "User",
+        "config": {
+          "access": "read_write",
+          "sf_notify_enabled": false,
+          "sf_polling_seconds": 600,
+          "sf_max_daily_api_calls": 30000,
+          "fields": {
+            "Core_Sales_Level_1__c": {
+              
+            },
+            "UserPreferencesShowMobilePhoneToExternalUsers": {
+              
+            },
+            "UserPreferencesShowPostalCodeToExternalUsers": {
+              
+            },
+            "UserPreferencesShowCityToGuestUsers": {
+              
+            },
+            "LastLoginDate": {
+              
+            },
+            "UserPreferencesHideBiggerPhotoCallout": {
+              
+            },
+            "LastName": {
+              
+            },
+            "UserPermissionsSupportUser": {
+              
+            },
+            "UserPreferencesHideEndUserOnboardingAssistantModal": {
+              
+            },
+            "UserPreferencesDisableFollowersEmail": {
+              
+            },
+            "Street": {
+              
+            },
+            "EmployeeStatus__c": {
+              
+            },
+            "Sales_Segment__c": {
+              
+            },
+            "UserPermissionsInteractionUser": {
+              
+            },
+            "ProfileId": {
+              
+            },
+            "ReceivesAdminInfoEmails": {
+              
+            },
+            "SmallPhotoUrl": {
+              
+            },
+            "UserType": {
+              
+            },
+            "AboutMe": {
+              
+            },
+            "ForecastEnabled": {
+              
+            },
+            "Active_AE__c": {
+              
+            },
+            "UserPreferencesActivityRemindersPopup": {
+              
+            },
+            "Sales_Segment_Previous_FY__c": {
+              
+            },
+            "UserPreferencesDisCommentAfterLikeEmail": {
+              
+            },
+            "UserPermissionsJigsawProspectingUser": {
+              
+            },
+            "UserPreferencesDisMentionsCommentEmail": {
+              
+            },
+            "AccountId": {
+              
+            },
+            "Full_Name__c": {
+              
+            },
+            "CompanyName": {
+              
+            },
+            "ManagerId": {
+              
+            },
+            "UserPreferencesHideSecondChatterOnboardingSplash": {
+              
+            },
+            "Comp_Plan_Location__c": {
+              
+            },
+            "UserPreferencesDisableChangeCommentEmail": {
+              
+            },
+            "UserPreferencesHideCSNGetChatterMobileTask": {
+              
+            },
+            "UserPreferencesDisableEndorsementEmail": {
+              
+            },
+            "Core_Territory__c": {
+              
+            },
+            "UserPreferencesFavoritesShowTopFavorites": {
+              
+            },
+            "OfflinePdaTrialExpirationDate": {
+              
+            },
+            "TimeZoneSidKey": {
+              
+            },
+            "UserPreferencesDisableLikeEmail": {
+              
+            },
+            "EmailPreferencesAutoBccStayInTouch": {
+              
+            },
+            "UserPreferencesFavoritesWTShown": {
+              
+            },
+            "UserPreferencesEventRemindersCheckboxDefault": {
+              
+            },
+            "Quota_Curr_FY__c": {
+              
+            },
+            "UserPreferencesPathAssistantCollapsed": {
+              
+            },
+            "City": {
+              
+            },
+            "LocaleSidKey": {
+              
+            },
+            "Name": {
+              
+            },
+            "UserPreferencesDisableBookmarkEmail": {
+              
+            },
+            "FederationIdentifier": {
+              
+            },
+            "FullPhotoUrl": {
+              
+            },
+            "MobilePhone": {
+              
+            },
+            "Password_Expiration_Notification__c": {
+              
+            },
+            "UserPermissionsAvantgoUser": {
+              
+            },
+            "UserPreferencesCreateLEXAppsWTShown": {
+              
+            },
+            "UserPreferencesEnableAutoSubForFeeds": {
+              
+            },
+            "Heroku_UUID__c": {
+              
+            },
+            "UserPreferencesShowPostalCodeToGuestUsers": {
+              
+            },
+            "Division": {
+              
+            },
+            "LanguageLocaleKey": {
+              
+            },
+            "UserPreferencesShowMobilePhoneToGuestUsers": {
+              
+            },
+            "UserPreferencesDisableAllFeedsEmail": {
+              
+            },
+            "UserPreferencesShowCityToExternalUsers": {
+              
+            },
+            "LastModifiedDate": {
+              
+            },
+            "CallCenterId": {
+              
+            },
+            "UserPreferencesShowManagerToGuestUsers": {
+              
+            },
+            "Phone": {
+              
+            },
+            "UserPreferencesDisableProfilePostEmail": {
+              
+            },
+            "UserPreferencesDisableLaterCommentEmail": {
+              
+            },
+            "UserPermissionsCallCenterAutoLogin": {
+              
+            },
+            "UserPreferencesPreviewLightning": {
+              
+            },
+            "UserPreferencesShowWorkPhoneToExternalUsers": {
+              
+            },
+            "UserPreferencesShowFaxToExternalUsers": {
+              
+            },
+            "UserPreferencesContentEmailAsAndWhen": {
+              
+            },
+            "UserPreferencesHideS1BrowserUI": {
+              
+            },
+            "UserPreferencesContentNoEmail": {
+              
+            },
+            "UserPreferencesRecordHomeReservedWTShown": {
+              
+            },
+            "UserPreferencesTaskRemindersCheckboxDefault": {
+              
+            },
+            "UserPreferencesShowEmailToExternalUsers": {
+              
+            },
+            "OfflineTrialExpirationDate": {
+              
+            },
+            "IsActive": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "GitHub_User_ID__c": {
+              
+            },
+            "Alias": {
+              
+            },
+            "UserPermissionsKnowledgeUser": {
+              
+            },
+            "EmailEncodingKey": {
+              
+            },
+            "UserPreferencesDisableMessageEmail": {
+              
+            },
+            "UserPermissionsChatterAnswersUser": {
+              
+            },
+            "LastModifiedById": {
+              
+            },
+            "State": {
+              
+            },
+            "UserPreferencesDisableFileShareNotificationsForApi": {
+              
+            },
+            "UserPreferencesShowStreetAddressToGuestUsers": {
+              
+            },
+            "UserPreferencesShowStateToGuestUsers": {
+              
+            },
+            "UserPreferencesHideCSNDesktopTask": {
+              
+            },
+            "Department": {
+              
+            },
+            "Org62_User_ID__c": {
+              
+            },
+            "UserPreferencesExcludeMailAppAttachments": {
+              
+            },
+            "DefaultGroupNotificationFrequency": {
+              
+            },
+            "UserPreferencesGlobalNavBarWTShown": {
+              
+            },
+            "UserPreferencesHideSfxWelcomeMat": {
+              
+            },
+            "UserPreferencesShowTitleToExternalUsers": {
+              
+            },
+            "Sales_ID__c": {
+              
+            },
+            "ReceivesInfoEmails": {
+              
+            },
+            "User_Type__c": {
+              
+            },
+            "UserPermissionsOfflineUser": {
+              
+            },
+            "UserPreferencesShowProfilePicToGuestUsers": {
+              
+            },
+            "Username": {
+              
+            },
+            "Team_Name__c": {
+              
+            },
+            "Sales_Type__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "UserPreferencesShowCountryToExternalUsers": {
+              
+            },
+            "Country": {
+              
+            },
+            "EmailPreferencesStayInTouchReminder": {
+              
+            },
+            "UserPreferencesCacheDiagnostics": {
+              
+            },
+            "EmailPreferencesAutoBcc": {
+              
+            },
+            "CommunityNickname": {
+              
+            },
+            "UserPreferencesDisProfPostCommentEmail": {
+              
+            },
+            "UserPreferencesShowCountryToGuestUsers": {
+              
+            },
+            "EmployeeNumber": {
+              
+            },
+            "UserPreferencesJigsawListUser": {
+              
+            },
+            "UserPermissionsSFContentUser": {
+              
+            },
+            "PostalCode": {
+              
+            },
+            "Title": {
+              
+            },
+            "UserPreferencesDisableMentionsPostEmail": {
+              
+            },
+            "UserPreferencesApexPagesDeveloperMode": {
+              
+            },
+            "UserPreferencesDisableSharePostEmail": {
+              
+            },
+            "DigestFrequency": {
+              
+            },
+            "UserPermissionsMarketingUser": {
+              
+            },
+            "UserPreferencesShowTitleToGuestUsers": {
+              
+            },
+            "Comp_Plan_Sign_Date__c": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "UserPreferencesHideLightningMigrationModal": {
+              
+            },
+            "UserPreferencesLightningExperiencePreferred": {
+              
+            },
+            "Id": {
+              
+            },
+            "FirstName": {
+              
+            },
+            "ContactId": {
+              
+            },
+            "UserPreferencesShowStateToExternalUsers": {
+              
+            },
+            "UserPreferencesShowStreetAddressToExternalUsers": {
+              
+            },
+            "UserPermissionsSiteforceContributorUser": {
+              
+            },
+            "UserPermissionsSiteforcePublisherUser": {
+              
+            },
+            "UserPreferencesHideChatterOnboardingSplash": {
+              
+            },
+            "UserPreferencesGlobalNavGridMenuWTShown": {
+              
+            },
+            "Email": {
+              
+            },
+            "UserRoleId": {
+              
+            },
+            "UserPreferencesShowEmailToGuestUsers": {
+              
+            },
+            "Fax": {
+              
+            },
+            "UserPreferencesShowWorkPhoneToGuestUsers": {
+              
+            },
+            "UserPreferencesShowFaxToGuestUsers": {
+              
+            },
+            "Extension": {
+              
+            },
+            "UserPreferencesReminderSoundOff": {
+              
+            },
+            "Core_Sales_Level_2__c": {
+              
+            },
+            "LegalName__c": {
+              
+            },
+            "UserPreferencesRecordHomeSectionCollapseWTShown": {
+              
+            },
+            "UserPreferencesShowManagerToExternalUsers": {
+              
+            },
+            "UserPreferencesSortFeedByComment": {
+              
+            },
+            "DelegatedApproverId": {
+              
+            }
+          },
+          "indexes": {
+            "SystemModstamp": {
+              "unique": false
+            },
+            "GitHub_User_ID__c": {
+              "unique": true
+            },
+            "Id": {
+              "unique": true
+            },
+            "LastModifiedDate": {
+              "unique": false
+            },
+            "Sales_ID__c": {
+              "unique": false
+            }
+          },
+          "applied_at": "2022-03-03T23:00:52.120365Z"
+        }
+      },
+      {
+        "object_name": "Vault_Request__c",
+        "config": {
+          "indexes": {
+            "LastModifiedDate": {
+              "unique": false
+            },
+            "SystemModstamp": {
+              "unique": false
+            },
+            "External_ID__c": {
+              "unique": true
+            },
+            "Id": {
+              "unique": true
+            }
+          },
+          "sf_max_daily_api_calls": 30000,
+          "access": "read_write",
+          "upsert_field": "External_ID__c",
+          "applied_at": "2018-09-11T18:22:22.406754Z",
+          "sf_polling_seconds": 600,
+          "sf_notify_enabled": true,
+          "fields": {
+            "Vault_Request_Contact__c": {
+              
+            },
+            "Notes__c": {
+              
+            },
+            "EMEA_Trial_Clarification__c": {
+              
+            },
+            "Trial_Approved__c": {
+              
+            },
+            "Org62_Account_URL__c": {
+              
+            },
+            "RecordTypeId": {
+              
+            },
+            "Requester__c": {
+              
+            },
+            "Organization_Expiration__c": {
+              
+            },
+            "Trial_Extension_End_Date__c": {
+              
+            },
+            "Source__c": {
+              
+            },
+            "Name": {
+              
+            },
+            "Organization_Name__c": {
+              
+            },
+            "LastModifiedDate": {
+              
+            },
+            "OrgH_Contact_ID__c": {
+              
+            },
+            "OwnerId": {
+              
+            },
+            "Organization_Switch_Close_Date__c": {
+              
+            },
+            "MayEdit": {
+              
+            },
+            "IsDeleted": {
+              
+            },
+            "SystemModstamp": {
+              
+            },
+            "Account_Executive_Email__c": {
+              
+            },
+            "LastModifiedById": {
+              
+            },
+            "Status__c": {
+              
+            },
+            "Spend_Cap__c": {
+              
+            },
+            "Contact_URL__c": {
+              
+            },
+            "External_ID__c": {
+              
+            },
+            "IsLocked": {
+              
+            },
+            "Trial_Extension_Reason__c": {
+              
+            },
+            "Trial_Products__c": {
+              
+            },
+            "CreatedDate": {
+              
+            },
+            "Account__c": {
+              
+            },
+            "Trial_Extension_Approval__c": {
+              
+            },
+            "Request_Type__c": {
+              
+            },
+            "Trial_Opportunity__c": {
+              
+            },
+            "Administrator_Emails__c": {
+              
+            },
+            "CreatedById": {
+              
+            },
+            "Id": {
+              
+            },
+            "OrgH_Opportunity_URL__c": {
+              
+            },
+            "OrgH_Opp_ID__c": {
+              
+            },
+            "Organization_Type__c": {
+              
+            },
+            "Org62_Opportunity_URL__c": {
+              
+            }
+          }
+        }
+      }
+    ],
+    "connection": {
+      "app_name": "heroku-data-warehouse-prv",
+      "organization_id": "00D30000000osTNEAY",
+      "exported_at": "2024-05-15T14:24:02.442271+00:00",
+      "features": {
+        "disable_bulk_writes": false,
+        "poll_db_no_merge": false,
+        "poll_external_ids": false,
+        "rest_count_only": false,
+        "ucs_basic_collation_index": false
+      },
+      "api_version": "58.0",
+      "name": "DWH Connect Fast",
+      "logplex_log_enabled": false
+    },
+    "version": 1
+  }

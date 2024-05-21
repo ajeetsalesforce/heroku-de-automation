@@ -1,0 +1,2381 @@
+{
+    "mappings": [
+        {
+            "object_name": "Abuse_Score_Prediction__c",
+            "config": {
+                "access": "read_only",
+                "sf_notify_enabled": false,
+                "sf_polling_seconds": 600,
+                "sf_max_daily_api_calls": 30000,
+                "fields": {
+                    "Clearbit_Risk_Score__c": {},
+                    "Contact__c": {},
+                    "Declared_Country_Mismatch__c": {},
+                    "Signup_Channel_Attribution__c": {},
+                    "Clearbit_Traffic_Type__c": {},
+                    "Name": {},
+                    "LastModifiedDate": {},
+                    "MayEdit": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "LastModifiedById": {},
+                    "Predicted_Abuse_Score__c": {},
+                    "Abuse_Prediction_Raw__c": {},
+                    "IsLocked": {},
+                    "Account_Type_Association__c": {},
+                    "CreatedDate": {},
+                    "CreatedById": {},
+                    "Id": {},
+                    "Signup_Slug_Source__c": {}
+                },
+                "indexes": {
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "AccountContactRole",
+            "config": {
+                "indexes": {
+                    "Id": {
+                        "unique": true
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    }
+                },
+                "access": "read_write",
+                "sf_max_daily_api_calls": 30000,
+                "sf_polling_seconds": 600,
+                "fields": {
+                    "CreatedDate": {},
+                    "CreatedById": {},
+                    "LastModifiedDate": {},
+                    "IsPrimary": {},
+                    "AccountId": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "LastModifiedById": {},
+                    "ContactId": {},
+                    "Id": {},
+                    "Role": {}
+                },
+                "sf_notify_enabled": false
+            }
+        },
+        {
+            "object_name": "Account_D2E_Prediction_History__c",
+            "config": {
+                "access": "read_only",
+                "sf_notify_enabled": false,
+                "sf_polling_seconds": 600,
+                "sf_max_daily_api_calls": 30000,
+                "fields": {
+                    "Account_Owner__c": {},
+                    "Scored_Account__c": {},
+                    "D2E_Data_Spend_Change__c": {},
+                    "Industry__c": {},
+                    "Account_Name__c": {},
+                    "D2E_Number_of_Support_Tickets__c": {},
+                    "D2E_Partner_Installed__c": {},
+                    "D2E_Spend_Change__c": {},
+                    "D2E_Addon_Spend_Change__c": {},
+                    "Name": {},
+                    "D2E_Prediction__c": {},
+                    "D2E_Years_from_Signup_to_Conversion__c": {},
+                    "D2E_MAU_Change__c": {},
+                    "LastModifiedDate": {},
+                    "MayEdit": {},
+                    "IsDeleted": {},
+                    "D2E_Number_of_App_Deploys__c": {},
+                    "SystemModstamp": {},
+                    "Number_of_Employees__c": {},
+                    "LastModifiedById": {},
+                    "D2E_Dyno_Spend_Change__c": {},
+                    "Billing_Country__c": {},
+                    "D2E_Prediction_number__c": {},
+                    "D2E_Scoring_Buckets__c": {},
+                    "IsLocked": {},
+                    "CreatedDate": {},
+                    "CreatedById": {},
+                    "Id": {},
+                    "D2E_Years_from_First_Spend_to_Conversion__c": {}
+                },
+                "indexes": {
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                },
+                "applied_at": "2021-08-19T21:07:17.136123Z"
+            }
+        },
+        {
+            "object_name": "Account_Overage__c",
+            "config": {
+                "access": "read_write",
+                "sf_max_daily_api_calls": 30000,
+                "indexes": {
+                    "LastModifiedDate": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    }
+                },
+                "sf_polling_seconds": 600,
+                "applied_at": "2016-02-10T05:15:17.174Z",
+                "fields": {
+                    "Opportunity__c": {},
+                    "Addon_Limit__c": {},
+                    "Connect_Usage__c": {},
+                    "Data_Usage__c": {},
+                    "Id": {},
+                    "Spaces_RUL_Limit__c": {},
+                    "Dyno_Usage_Delta__c": {},
+                    "Data_Limit__c": {},
+                    "Partner_Usage__c": {},
+                    "Partner_Usage_Delta__c": {},
+                    "Alerted_At__c": {},
+                    "Data_Usage_Delta__c": {},
+                    "Spaces_Usage__c": {},
+                    "Addon_Usage__c": {},
+                    "Dyno_Limit__c": {},
+                    "First_Last__c": {},
+                    "LastModifiedById": {},
+                    "Connect_Usage_Delta__c": {},
+                    "Dyno_Usage__c": {},
+                    "Alerted_Rep__c": {},
+                    "Connect_Limit__c": {},
+                    "Provisionary_Url__c": {},
+                    "Account__c": {},
+                    "CreatedById": {},
+                    "Closed__c": {},
+                    "OwnerId": {},
+                    "IsDeleted": {},
+                    "LastModifiedDate": {},
+                    "SystemModstamp": {},
+                    "Spaces_RUL_Usage_Delta__c": {},
+                    "Name": {},
+                    "Partner_Limit__c": {},
+                    "CreatedDate": {},
+                    "Addon_Usage_Delta__c": {}
+                },
+                "sf_notify_enabled": false
+            }
+        },
+        {
+            "object_name": "Add_on_Success_Plan__c",
+            "config": {
+                "sf_polling_seconds": 600,
+                "access": "read_only",
+                "fields": {
+                    "Add_on_Category__c": {},
+                    "Website__c": {},
+                    "LastViewedDate": {},
+                    "Name": {},
+                    "Elements_Page__c": {},
+                    "LastModifiedDate": {},
+                    "OwnerId": {},
+                    "IsDeleted": {},
+                    "Segment__c": {},
+                    "SystemModstamp": {},
+                    "LastModifiedById": {},
+                    "LastActivityDate": {},
+                    "Add_on_Slug__c": {},
+                    "CreatedDate": {},
+                    "Account__c": {},
+                    "Last_Review_Date__c": {},
+                    "CreatedById": {},
+                    "Next_Review_Date__c": {},
+                    "Id": {},
+                    "LastReferencedDate": {},
+                    "Engagement_Level__c": {}
+                },
+                "sf_max_daily_api_calls": 30000,
+                "sf_notify_enabled": false,
+                "indexes": {
+                    "LastModifiedDate": {
+                        "unique": false
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Add_on_Slug__c": {
+                        "unique": true
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                },
+                "applied_at": "2017-09-13T22:20:43.583545Z"
+            }
+        },
+        {
+            "object_name": "App__c",
+            "config": {
+                "indexes": {
+                    "App_Id__c": {
+                        "unique": true
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    },
+                    "Contact__c": {
+                        "unique": false
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                },
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "upsert_field": "App_Id__c",
+                "applied_at": "2019-02-22T20:33:44.274021Z",
+                "sf_polling_seconds": 600,
+                "sf_notify_enabled": false,
+                "fields": {
+                    "App_Other_Dyno__c": {},
+                    "Total_Dynos__c": {},
+                    "PG_Type__c": {},
+                    "Heroku_App_Updated__c": {},
+                    "Heroku_SSL_Count__c": {},
+                    "Contact__c": {},
+                    "Heroku_App_Deleted__c": {},
+                    "App_Web_Dyno__c": {},
+                    "Heroku_Domain_List__c": {},
+                    "Heroku_Release_Count__c": {},
+                    "Template__c": {},
+                    "App_Id__c": {},
+                    "Name": {},
+                    "PG_Date_Added__c": {},
+                    "Heroku_UUID__c": {},
+                    "LastModifiedDate": {},
+                    "Contact__Heroku_User_ID__c": {},
+                    "Blitz_Type__c": {},
+                    "Space_ID__c": {},
+                    "IsDeleted": {},
+                    "Related_Partner__c": {},
+                    "SystemModstamp": {},
+                    "Total_Collaborators__c": {},
+                    "LastModifiedById": {},
+                    "Heroku_Previous_Process_Count__c": {},
+                    "LastActivityDate": {},
+                    "Heroku_App_Created__c": {},
+                    "Heroku_Domain_Count__c": {},
+                    "CreatedDate": {},
+                    "Blitz_Date_Added__c": {},
+                    "CreatedById": {},
+                    "Id": {},
+                    "NR_Added_Date__c": {},
+                    "Heroku_App_Framework__c": {},
+                    "Heroku_Last_Git__c": {},
+                    "Heroku_Process_Count__c": {}
+                }
+            }
+        },
+        {
+            "object_name": "CSAWebinar__c",
+            "config": {
+                "access": "read_write",
+                "sf_max_daily_api_calls": 30000,
+                "sf_polling_seconds": 600,
+                "fields": {
+                    "Name": {},
+                    "SystemModstamp": {},
+                    "CSAUserPrimary__c": {},
+                    "CreatedDate": {},
+                    "IsDeleted": {},
+                    "WebinarDate__c": {},
+                    "OwnerId": {},
+                    "Id": {},
+                    "WebinarURL__c": {},
+                    "WebinarTitle__c": {},
+                    "CreatedById": {},
+                    "CSAUserSecondary__c": {}
+                },
+                "applied_at": "2017-05-10T20:05:59.685511Z",
+                "indexes": {
+                    "Id": {
+                        "unique": true
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    }
+                },
+                "sf_notify_enabled": false
+            }
+        },
+        {
+            "object_name": "Campaign",
+            "config": {
+                "indexes": {
+                    "LastModifiedDate": {
+                        "unique": false
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                },
+                "applied_at": "2019-06-05T16:03:23.479738Z",
+                "sf_max_daily_api_calls": 30000,
+                "sf_polling_seconds": 300,
+                "sf_notify_enabled": true,
+                "fields": {
+                    "Device_Type__c": {},
+                    "Funnel_Type__c": {},
+                    "NumberSent": {},
+                    "Objective_Onboarding__c": {},
+                    "Objective_Adoption_Engagement__c": {},
+                    "Asset_URL__c": {},
+                    "ExpectedRevenue": {},
+                    "Objective_Signup__c": {},
+                    "Objective_None__c": {},
+                    "NumberOfConvertedLeads": {},
+                    "ParentId": {},
+                    "RecordTypeId": {},
+                    "Year__c": {},
+                    "Branded_Non_Branded__c": {},
+                    "Source__c": {},
+                    "AmountAllOpportunities": {},
+                    "LastViewedDate": {},
+                    "Campaign_Theme__c": {},
+                    "Objective_Sales_Enablement__c": {},
+                    "EndDate": {},
+                    "Objective_Expansion__c": {},
+                    "Objective_Retention__c": {},
+                    "Name": {},
+                    "Channel_Type__c": {},
+                    "LastModifiedDate": {},
+                    "Objective_Lead_Generation__c": {},
+                    "OwnerId": {},
+                    "Region__c": {},
+                    "Match_Type__c": {},
+                    "IsDeleted": {},
+                    "IsActive": {},
+                    "SystemModstamp": {},
+                    "CampaignMemberRecordTypeId": {},
+                    "StartDate": {},
+                    "LastModifiedById": {},
+                    "BudgetedCost": {},
+                    "Dept_Function__c": {},
+                    "NumberOfOpportunities": {},
+                    "Status": {},
+                    "NumberOfResponses": {},
+                    "Incubator_Program_Amount__c": {},
+                    "LastActivityDate": {},
+                    "AmountWonOpportunities": {},
+                    "NumberOfContacts": {},
+                    "Objective_Awareness__c": {},
+                    "Objective_Monetization__c": {},
+                    "HVA_LVA_Type__c": {},
+                    "CreatedDate": {},
+                    "NumberOfLeads": {},
+                    "Quarter__c": {},
+                    "ExpectedResponse": {},
+                    "Asset_Type__c": {},
+                    "CreatedById": {},
+                    "Type": {},
+                    "NumberOfWonOpportunities": {},
+                    "Id": {},
+                    "ActualCost": {},
+                    "Description": {},
+                    "LastReferencedDate": {}
+                },
+                "access": "read_write"
+            }
+        },
+        {
+            "object_name": "CampaignMember",
+            "config": {
+                "indexes": {
+                    "LeadId": {
+                        "unique": false
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    },
+                    "ContactId": {
+                        "unique": false
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "External_ID__c": {
+                        "unique": true
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                },
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "upsert_field": "External_ID__c",
+                "applied_at": "2019-02-14T19:29:07.650839Z",
+                "sf_polling_seconds": 600,
+                "sf_notify_enabled": false,
+                "fields": {
+                    "OrgH_Processing_Status__c": {},
+                    "Notes__c": {},
+                    "Enterprise_Features__c": {},
+                    "HVA_Date__c": {},
+                    "Lead__Heroku_ID__c": {},
+                    "CampaignId": {},
+                    "EnrolledAt__c": {},
+                    "Last_Activity__c": {},
+                    "LVA_Date__c": {},
+                    "LastModifiedDate": {},
+                    "www_campaign_member_updated_at__c": {},
+                    "Last_Campaign_Updated__c": {},
+                    "Contact__Heroku_User_ID__c": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "LastModifiedById": {},
+                    "Status": {},
+                    "Assignment_Processed_Date__c": {},
+                    "FirstRespondedDate": {},
+                    "Lead__heroku_user_id__c": {},
+                    "External_ID__c": {},
+                    "CreatedDate": {},
+                    "recent_customer_input__c": {},
+                    "LeadId": {},
+                    "Mktg_Funnel_Stage_Assignment__c": {},
+                    "App_Name__c": {},
+                    "HasResponded": {},
+                    "CreatedById": {},
+                    "Customer_Input__c": {},
+                    "Id": {},
+                    "ContactId": {},
+                    "Org_Name__c": {}
+                }
+            }
+        },
+        {
+            "object_name": "CampaignMemberStatus",
+            "config": {
+                "sf_polling_seconds": 600,
+                "applied_at": "2015-07-13T19:57:37.138Z",
+                "sf_notify_enabled": false,
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "fields": {
+                    "IsDefault": {},
+                    "CreatedDate": {},
+                    "LastModifiedById": {},
+                    "CampaignId": {},
+                    "HasResponded": {},
+                    "Label": {},
+                    "Id": {},
+                    "SortOrder": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "CreatedById": {},
+                    "LastModifiedDate": {}
+                },
+                "indexes": {
+                    "Id": {
+                        "unique": true
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "Case",
+            "config": {
+                "access": "read_write",
+                "indexes": {
+                    "LastModifiedDate": {
+                        "unique": false
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Ticket_Id__c": {
+                        "unique": true
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                },
+                "applied_at": "2018-10-19T22:24:18.356202Z",
+                "sf_polling_seconds": 600,
+                "fields": {
+                    "App__c": {},
+                    "Addon__c": {},
+                    "Priority": {},
+                    "Reason": {},
+                    "Category__c": {},
+                    "Requester_Id__c": {},
+                    "ParentId": {},
+                    "component__c": {},
+                    "Origin": {},
+                    "Ticket_URL__c": {},
+                    "Case_Sales_Type__c": {},
+                    "AccountId": {},
+                    "LastViewedDate": {},
+                    "review_notes__c": {},
+                    "Deleted_At__c": {},
+                    "AssetId": {},
+                    "Subject": {},
+                    "Updated_At__c": {},
+                    "CSAT_Score__c": {},
+                    "LastModifiedDate": {},
+                    "Last_Public_Change_At__c": {},
+                    "OwnerId": {},
+                    "Form_URL__c": {},
+                    "Run_Rate__c": {},
+                    "Campaign_Channel__c": {},
+                    "IsDeleted": {},
+                    "Stale_Notified_At__c": {},
+                    "SystemModstamp": {},
+                    "LastModifiedById": {},
+                    "IsClosedOnCreate": {},
+                    "Days_Open__c": {},
+                    "Status": {},
+                    "Client_Id__c": {},
+                    "Form_Comments__c": {},
+                    "Ticket_Id__c": {},
+                    "CreatedDate": {},
+                    "IsClosed": {},
+                    "First_Responded_At__c": {},
+                    "State_Changed_At__c": {},
+                    "Close_Reason__c": {},
+                    "Form_Campaign__c": {},
+                    "Assignee_Id__c": {},
+                    "CaseNumber": {},
+                    "Created_At__c": {},
+                    "App_Name__c": {},
+                    "CreatedById": {},
+                    "Type": {},
+                    "ClosedDate": {},
+                    "Id": {},
+                    "ContactId": {},
+                    "Premium_Support__c": {},
+                    "Permission_Granted_At__c": {},
+                    "Last_Responded_At__c": {},
+                    "Description": {},
+                    "LastReferencedDate": {},
+                    "Case_Emails__c": {},
+                    "Customer_Comments_Count__c": {},
+                    "Actor_Id__c": {},
+                    "meta_data__c": {},
+                    "reason__c": {}
+                },
+                "sf_notify_enabled": false,
+                "sf_max_daily_api_calls": 30000
+            }
+        },
+        {
+            "object_name": "Closed_Opportunity_Survey__c",
+            "config": {
+                "access": "read_write",
+                "sf_max_daily_api_calls": 30000,
+                "fields": {
+                    "Business_Problem_Solved__c": {},
+                    "Deal_Source__c": {},
+                    "CreatedDate": {},
+                    "Integrated_with_SFDC__c": {},
+                    "Significance_of_Heroku_in_Architecture__c": {},
+                    "Other_Solution_Built__c": {},
+                    "Additional_SF_Products_Sold_With_Deal__c": {},
+                    "SystemModstamp": {},
+                    "LastActivityDate": {},
+                    "Solution_Built__c": {},
+                    "CreatedById": {},
+                    "IsDeleted": {},
+                    "Primary_Buyer__c": {},
+                    "Competition__c": {},
+                    "Other_Reason__c": {},
+                    "Other_Business_Problem_Solved__c": {},
+                    "Name": {},
+                    "Main_Reasons_for_Choosing_Heroku__c": {},
+                    "LastModifiedDate": {},
+                    "Id": {},
+                    "Sales_Effort_Split__c": {},
+                    "Industry__c": {},
+                    "Other_Competitor__c": {},
+                    "If_Partner_Enter_Name__c": {},
+                    "Opportunity__c": {},
+                    "LastModifiedById": {}
+                },
+                "sf_polling_seconds": 600,
+                "applied_at": "2015-08-21T20:17:26.816Z",
+                "sf_notify_enabled": false,
+                "indexes": {
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "Community",
+            "config": {
+                "sf_polling_seconds": 360,
+                "applied_at": "2015-06-01T04:20:13.046Z",
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_only",
+                "fields": {
+                    "CreatedDate": {},
+                    "IsActive": {},
+                    "Description": {},
+                    "SystemModstamp": {},
+                    "CreatedById": {},
+                    "Id": {}
+                },
+                "sf_notify_enabled": false,
+                "indexes": {
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "Component_App__c",
+            "config": {
+                "sf_polling_seconds": 600,
+                "applied_at": "2014-11-26T23:19:34.743Z",
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "fields": {
+                    "Component__c__Unique_Name__c": {},
+                    "CreatedDate": {},
+                    "App__c": {},
+                    "LastModifiedById": {},
+                    "Id": {},
+                    "CreatedById": {},
+                    "Component__c__Trello_Card_Id__c": {},
+                    "Name": {},
+                    "App__c__App_Id__c": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "Component__c": {},
+                    "Access_to_customer_data__c": {},
+                    "LastModifiedDate": {}
+                },
+                "sf_notify_enabled": false,
+                "indexes": {
+                    "Component__c": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    },
+                    "App__c": {
+                        "unique": false
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "Component_Dependency__c",
+            "config": {
+                "sf_polling_seconds": 600,
+                "applied_at": "2015-02-10T00:03:13.702Z",
+                "sf_notify_enabled": false,
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "fields": {
+                    "Component__c__Unique_Name__c": {},
+                    "CreatedDate": {},
+                    "Access_to_other_customer_data__c": {},
+                    "LastModifiedById": {},
+                    "Access_to_billing_data__c": {},
+                    "Access_to_PII__c": {},
+                    "Client__c": {},
+                    "Magnitude_of_data_access_scope__c": {},
+                    "Id": {},
+                    "Triple__c": {},
+                    "Supplier__c": {},
+                    "Component__c__Trello_Card_Id__c": {},
+                    "Name": {},
+                    "Predicate__c": {},
+                    "Canonical_Relationship__c": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "CreatedById": {},
+                    "LastModifiedDate": {}
+                },
+                "indexes": {
+                    "Client__c": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "Component_Owner__c",
+            "config": {
+                "sf_polling_seconds": 600,
+                "applied_at": "2015-07-22T18:01:35.876516Z",
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "fields": {
+                    "Component__c": {},
+                    "Component__c__Trello_Card_Id__c": {},
+                    "Name": {},
+                    "LastModifiedDate": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "Component__c__Unique_Name__c": {},
+                    "LastModifiedById": {},
+                    "Is_Me__c": {},
+                    "CreatedDate": {},
+                    "User__c": {},
+                    "CreatedById": {},
+                    "Id": {}
+                },
+                "sf_notify_enabled": false,
+                "indexes": {
+                    "Component__c": {
+                        "unique": false
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "Component_Vendor__c",
+            "config": {
+                "sf_polling_seconds": 600,
+                "applied_at": "2015-02-03T19:52:15.362Z",
+                "sf_notify_enabled": false,
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "fields": {
+                    "Component__c__Unique_Name__c": {},
+                    "CreatedDate": {},
+                    "Sends_billing_data__c": {},
+                    "LastModifiedById": {},
+                    "Unique_Component_Vendor__c": {},
+                    "Sends_other_customer_data__c": {},
+                    "Sends_PII__c": {},
+                    "CreatedById": {},
+                    "Vendor__c": {},
+                    "Component__c__Trello_Card_Id__c": {},
+                    "Name": {},
+                    "Id": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "Vendor__c__Trello_Card_Id__c": {},
+                    "Component__c": {},
+                    "Magnitude_of_sent_data_scope__c": {},
+                    "LastModifiedDate": {}
+                },
+                "indexes": {
+                    "Component__c": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Vendor__c": {
+                        "unique": false
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "Component__c",
+            "config": {
+                "access": "read_only",
+                "sf_notify_enabled": false,
+                "sf_polling_seconds": 600,
+                "sf_max_daily_api_calls": 30000,
+                "fields": {
+                    "Uses_Rollbar__c": {},
+                    "Allows_external_access__c": {},
+                    "Stores_PII__c": {},
+                    "Product_Owner__c": {},
+                    "Uses_Circle_CI__c": {},
+                    "Last_Metrics_Sync__c": {},
+                    "Repository_Owner__c": {},
+                    "Change_Verification_Methods__c": {},
+                    "Compliance_Notes__c": {},
+                    "Last_Security_Survey_Date__c": {},
+                    "LastModifiedBy__Trello_Id__c": {},
+                    "Description__c": {},
+                    "Stores_Billing_Data__c": {},
+                    "Crypto_libraries__c": {},
+                    "LastViewedDate": {},
+                    "Customer_Facing__c": {},
+                    "Automated_Test_Execution__c": {},
+                    "Type__c": {},
+                    "Uses_CI__c": {},
+                    "Unique_Name__c": {},
+                    "Testing_Self_Assessment_Score__c": {},
+                    "Trello_URL__c": {},
+                    "Language__c": {},
+                    "Pipeline_UUID__c": {},
+                    "Name": {},
+                    "Graphing_Rank__c": {},
+                    "Security_reviewed__c": {},
+                    "LastModifiedDate": {},
+                    "Uses_Travis_CI__c": {},
+                    "OwnerId": {},
+                    "Magnitude_of_data_storage_scope__c": {},
+                    "Uses_Github_Actions__c": {},
+                    "IsDeleted": {},
+                    "Peer_reviewed__c": {},
+                    "Trello_Card_Id__c": {},
+                    "CreatedBy__Trello_Id__c": {},
+                    "SystemModstamp": {},
+                    "Last_Trello_Import__c": {},
+                    "Uses_Docker__c": {},
+                    "Production_Readiness_Review__c": {},
+                    "LastModifiedById": {},
+                    "CI_Workflow_Name__c": {},
+                    "Design_Owner__c": {},
+                    "Has_Integration_Tests__c": {},
+                    "Data_storage_detais__c": {},
+                    "LastActivityDate": {},
+                    "Stores_other_customer_data__c": {},
+                    "Uses_Heroku_CI__c": {},
+                    "Team_Name__c": {},
+                    "CreatedDate": {},
+                    "Graphed__c": {},
+                    "Has_the_app_received_a_security_review__c": {},
+                    "web_based_login_interface__c": {},
+                    "PCI_Tier__c": {},
+                    "Has_Unit_Tests__c": {},
+                    "Uses_Exception_Reporting__c": {},
+                    "Product_Tag__c": {},
+                    "Repository__c": {},
+                    "Last_Quality_Survey_Date__c": {},
+                    "Number_of_Dependants__c": {},
+                    "Supports_Evergreen__c": {},
+                    "CreatedById": {},
+                    "Stack__c": {},
+                    "Id": {},
+                    "Quality_Self_Assessment_Score__c": {},
+                    "Lifecycle_Status__c": {},
+                    "Access_to_production_systems__c": {},
+                    "Engineering_Owner__c": {},
+                    "Architecture_Owner__c": {},
+                    "Allows_external_access_details__c": {},
+                    "Last_Security_Survey_By__c": {},
+                    "Number_of_Component_Apps__c": {},
+                    "LastReferencedDate": {},
+                    "Last_Security_Survey_By__r__Trello_Id__c": {},
+                    "Uses_Docker_Compose__c": {},
+                    "Uses_Pliny__c": {},
+                    "Pager_Duty_Service_Code__c": {}
+                },
+                "indexes": {
+                    "LastModifiedById": {
+                        "unique": false
+                    },
+                    "CreatedById": {
+                        "unique": false
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    },
+                    "Last_Security_Survey_By__c": {
+                        "unique": false
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "Contact",
+            "config": {
+                "indexes": {
+                    "AccountId": {
+                        "unique": false
+                    },
+                    "Heroku_User_ID__c": {
+                        "unique": true
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "External_ID__c": {
+                        "unique": true
+                    },
+                    "Id": {
+                        "unique": true
+                    },
+                    "Heroku_User_ID_int__c": {
+                        "unique": true
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    },
+                    "OwnerId": {
+                        "unique": false
+                    },
+                    "Email": {
+                        "unique": false
+                    }
+                },
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "upsert_field": "External_ID__c",
+                "applied_at": "2024-04-03T16:47:56.353707Z",
+                "sf_polling_seconds": 600,
+                "sf_notify_enabled": false,
+                "fields": {
+                    "GitHub__c": {},
+                    "Primary_Contact__c": {},
+                    "Heroku_User_Email__c": {},
+                    "Partner_Name__c": {},
+                    "LastName": {},
+                    "Heroku_User_Full_Name__c": {},
+                    "FY18_Q1_Prod_Check_Log_App__c": {},
+                    "Heroku_First_App_Created__c": {},
+                    "MailingPostalCode": {},
+                    "Heroku_User_Deleted__c": {},
+                    "Paid_Degree__c": {},
+                    "Signup_State_Confidence__c": {},
+                    "VAE_Program__c": {},
+                    "DPA_Additional_Information__c": {},
+                    "LinkedIn__c": {},
+                    "GDPR_Process_Date__c": {},
+                    "Contact_Industry__c": {},
+                    "Signup_Role__c": {},
+                    "MailingState": {},
+                    "RecordTypeId": {},
+                    "Total_App_Requests__c": {},
+                    "Do_Not_Email__c": {},
+                    "Team_Platform_Status__c": {},
+                    "Contact_Account_Name__c": {},
+                    "DWH_Mailable__c": {},
+                    "AccountId": {},
+                    "Delinquent_At__c": {},
+                    "Heroku_Last_Login__c": {},
+                    "Enterprise_Features__c": {},
+                    "Growth_Score__c": {},
+                    "Signup_Country_Confidence__c": {},
+                    "Number_of_Deploys__c": {},
+                    "heroku_user_last_verified_at__c": {},
+                    "Heroku_Production_Org__c": {},
+                    "Heroku_Reg_Confirmed__c": {},
+                    "Credits_School__c": {},
+                    "Incubator_Stacking__c": {},
+                    "MailingCountry": {},
+                    "Name": {},
+                    "Signup_City_Confidence__c": {},
+                    "Signup_Campaign__c": {},
+                    "MobilePhone": {},
+                    "Credits_End_Date__c": {},
+                    "Heroku_First_Collab__c": {},
+                    "Org_62_Email_Opt_Out__c": {},
+                    "Suspended_At__c": {},
+                    "FY18_Q1_Prod_Check_Monitor_App__c": {},
+                    "Signup_Company__c": {},
+                    "Heroku_UUID__c": {},
+                    "Credits_Program_Remaining__c": {},
+                    "LastModifiedDate": {},
+                    "Phone": {},
+                    "Landing_Page_User_Notes__c": {},
+                    "Account__CC_Acct_ID__c": {},
+                    "MailingStreet": {},
+                    "OwnerId": {},
+                    "Heroku_User_ID__c": {},
+                    "Signup_Guessed_OS__c": {},
+                    "Run_Rate__c": {},
+                    "HasOptedOutOfEmail": {},
+                    "IsDeleted": {},
+                    "Sales_Enable_Campaign_SFID__c": {},
+                    "Heroku_Signup__c": {},
+                    "CE_Research_Flag__c": {},
+                    "Twitter__c": {},
+                    "SystemModstamp": {},
+                    "LastModifiedById": {},
+                    "Credits_Program_Status__c": {},
+                    "Heroku_First_Build_Attempt__c": {},
+                    "Signup_City__c": {},
+                    "Opt_in__c": {},
+                    "Random_Cohort__c": {},
+                    "LastActivityDate": {},
+                    "Contact_Count__c": {},
+                    "DPA_Effective_Date__c": {},
+                    "MailingStateCode": {},
+                    "Credits_Start_Date__c": {},
+                    "External_ID__c": {},
+                    "GDPR_Process__c": {},
+                    "Signup_Country__c": {},
+                    "Heroku_User_Receive_Newsletter__c": {},
+                    "Heroku_First_App_Deployed__c": {},
+                    "CreatedDate": {},
+                    "MailingCity": {},
+                    "Heroku_Last_Updated__c": {},
+                    "LeadSource": {},
+                    "Shadow_Company_Name__c": {},
+                    "Enterprise_Account_ID__c": {},
+                    "Title": {},
+                    "Form_Campaign__c": {},
+                    "runrate__c": {},
+                    "MailingCountryCode": {},
+                    "Signup_State__c": {},
+                    "AccountNameTenkara__c": {},
+                    "Enterprise_Account_ID_varchar__c": {},
+                    "Sales_Enable_Custom_String_2__c": {},
+                    "CreatedById": {},
+                    "Pardot_Contact__c": {},
+                    "Sales_Enable_Custom_String_1__c": {},
+                    "Receives_Newsletter__c": {},
+                    "Id": {},
+                    "FirstName": {},
+                    "Email_Domain__c": {},
+                    "Main_Coding_Language__c": {},
+                    "Email": {},
+                    "Heroku_Signup_Source__c": {},
+                    "Contact_No_Employees__c": {},
+                    "Heroku_Invited_By_User_ID__c": {},
+                    "Heroku_Last_Git__c": {},
+                    "Heroku_User_ID_int__c": {},
+                    "org__c": {}
+                }
+            }
+        },
+        {
+            "object_name": "Contacts_Passed_to_AE_Log__c",
+            "config": {
+                "sf_polling_seconds": 600,
+                "applied_at": "2015-05-05T21:02:16.602Z",
+                "sf_notify_enabled": false,
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "fields": {
+                    "CreatedDate": {},
+                    "Account__c": {},
+                    "New_Owner__c": {},
+                    "Id": {},
+                    "Old_Owner__c": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "Account_Sales_Channel__c": {},
+                    "Account_Org_62_Territory_Code__c": {},
+                    "Contact__c": {}
+                },
+                "indexes": {
+                    "Id": {
+                        "unique": true
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "Contract",
+            "config": {
+                "sf_polling_seconds": 600,
+                "applied_at": "2014-11-26T23:51:37.850Z",
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "fields": {
+                    "OwnerExpirationNotice": {},
+                    "BillingState": {},
+                    "ShippingCountry": {},
+                    "ActivatedDate": {},
+                    "CustomerSignedDate": {},
+                    "AccountId": {},
+                    "ContractNumber": {},
+                    "Status": {},
+                    "LastModifiedDate": {},
+                    "CustomerSignedId": {},
+                    "ActivatedById": {},
+                    "CustomerSignedTitle": {},
+                    "Id": {},
+                    "ShippingCity": {},
+                    "ShippingState": {},
+                    "IsDeleted": {},
+                    "BillingCity": {},
+                    "SystemModstamp": {},
+                    "ShippingPostalCode": {},
+                    "OwnerId": {},
+                    "SpecialTerms": {},
+                    "CreatedDate": {},
+                    "LastModifiedById": {},
+                    "BillingPostalCode": {},
+                    "StartDate": {},
+                    "CompanySignedDate": {},
+                    "BillingCountry": {},
+                    "LastApprovedDate": {},
+                    "CreatedById": {},
+                    "CompanySignedId": {},
+                    "LastActivityDate": {},
+                    "ShippingStreet": {},
+                    "EndDate": {},
+                    "ContractTerm": {},
+                    "Description": {},
+                    "StatusCode": {},
+                    "BillingStreet": {}
+                },
+                "sf_notify_enabled": false,
+                "indexes": {
+                    "LastModifiedDate": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "Entitlement",
+            "config": {
+                "sf_polling_seconds": 600,
+                "indexes": {
+                    "AccountId": {
+                        "unique": false
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                },
+                "fields": {
+                    "Account__External_ID__c": {},
+                    "Opportunity_Deal_Type__c": {},
+                    "MCS__c": {},
+                    "AccountId": {},
+                    "CSA_Boolean__c": {},
+                    "EndDate": {},
+                    "moshimoshi_phone_number__c": {},
+                    "Name": {},
+                    "price_flat_fee__c": {},
+                    "IsDeleted": {},
+                    "Opportunity__c": {},
+                    "SystemModstamp": {},
+                    "StartDate": {},
+                    "Support_Tier__c": {},
+                    "Status": {},
+                    "Tenant_UUID__c": {},
+                    "price_percentage__c": {},
+                    "Billing_User__c": {},
+                    "CreatedDate": {},
+                    "SLA_Level__c": {},
+                    "line_item_name__c": {},
+                    "CreatedById": {},
+                    "Type": {},
+                    "Id": {},
+                    "sla__c": {}
+                },
+                "sf_notify_enabled": false,
+                "applied_at": "2023-10-17T20:31:39.752696Z",
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write"
+            }
+        },
+        {
+            "object_name": "Group",
+            "config": {
+                "fields": {
+                    "OwnerId": {},
+                    "RelatedId": {},
+                    "SystemModstamp": {},
+                    "Id": {},
+                    "Name": {},
+                    "CreatedById": {},
+                    "Email": {},
+                    "Type": {},
+                    "CreatedDate": {}
+                },
+                "access": "read_only",
+                "sf_max_daily_api_calls": 30000,
+                "sf_polling_seconds": 600,
+                "sf_notify_enabled": false,
+                "indexes": {
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "Heroku_Account_Team__c",
+            "config": {
+                "fields": {
+                    "Start_Date__c": {},
+                    "Team_Member__c": {},
+                    "Id": {},
+                    "Team_Role__c": {},
+                    "CreatedById": {},
+                    "LastModifiedById": {},
+                    "End_Date__c": {},
+                    "Name": {},
+                    "SystemModstamp": {},
+                    "LastActivityDate": {},
+                    "CreatedDate": {},
+                    "IsDeleted": {},
+                    "LastModifiedDate": {},
+                    "Account__c": {}
+                },
+                "indexes": {
+                    "Id": {
+                        "unique": true
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    }
+                },
+                "sf_notify_enabled": false,
+                "sf_polling_seconds": 600,
+                "applied_at": "2016-04-06T02:03:14.680Z",
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write"
+            }
+        },
+        {
+            "object_name": "Lead",
+            "config": {
+                "sf_polling_seconds": 600,
+                "applied_at": "2023-08-10T19:40:32.846599Z",
+                "sf_notify_enabled": false,
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "fields": {
+                    "ConvertedDate": {},
+                    "Github__c": {},
+                    "Jigsaw": {},
+                    "MySQL__c": {},
+                    "LastName": {},
+                    "X1st_E_mail_Sent__c": {},
+                    "Street": {},
+                    "Unqualified_Reason__c": {},
+                    "IsUnreadByOwner": {},
+                    "Business_Size__c": {},
+                    "Assigned_date__c": {},
+                    "EmailBouncedReason": {},
+                    "Why_now__c": {},
+                    "NumberOfEmployees": {},
+                    "Remarket_Date__c": {},
+                    "LinkedIn__c": {},
+                    "Survey_Question_2__c": {},
+                    "Worked_Date__c": {},
+                    "Assigned_Rep_Alias__c": {},
+                    "RecordTypeId": {},
+                    "Survey_Question_1__c": {},
+                    "Why_Heroku__c": {},
+                    "IsConverted": {},
+                    "ConvertedContactId": {},
+                    "Num_Converted__c": {},
+                    "HEBA_YN__c": {},
+                    "City": {},
+                    "Name": {},
+                    "Skype__c": {},
+                    "LastModifiedDate": {},
+                    "Phone": {},
+                    "Latest_Invoice__c": {},
+                    "MasterRecordId": {},
+                    "OwnerId": {},
+                    "Top__c": {},
+                    "Funnel_Stage__c": {},
+                    "EmailBouncedDate": {},
+                    "New_Relic__c": {},
+                    "heroku_user_id__c": {},
+                    "Contact__Heroku_User_ID__c": {},
+                    "SFGA__Correlation_Data__c": {},
+                    "HasOptedOutOfEmail": {},
+                    "IsDeleted": {},
+                    "Remarket_Reason__c": {},
+                    "SFGA__Web_Source__c": {},
+                    "Twitter__c": {},
+                    "SystemModstamp": {},
+                    "LastModifiedById": {},
+                    "State": {},
+                    "Sales_Qualified_Lead__c": {},
+                    "Status": {},
+                    "Value__c": {},
+                    "LastActivityDate": {},
+                    "SFGA__CorrelationID__c": {},
+                    "Send_Templated_Email__c": {},
+                    "Remarket__c": {},
+                    "Email_Validator__c": {},
+                    "Assigned_Rep_ID__c": {},
+                    "X1st_Customer_Reply__c": {},
+                    "NoSQL__c": {},
+                    "MRR__c": {},
+                    "CreatedDate": {},
+                    "ConvertedAccountId": {},
+                    "Remarket_Rep_ID__c": {},
+                    "Country": {},
+                    "Worked_Rep_ID__c": {},
+                    "Num_Inquiries__c": {},
+                    "Postgres_Active__c": {},
+                    "LeadSource": {},
+                    "Created_Wk__c": {},
+                    "PostalCode": {},
+                    "Salutation": {},
+                    "Title": {},
+                    "Auto_ID__c": {},
+                    "Percent_Change__c": {},
+                    "Auto_ID_Last__c": {},
+                    "Plan__c": {},
+                    "Num_Worked__c": {},
+                    "JigsawContactId": {},
+                    "CreatedById": {},
+                    "Website": {},
+                    "Id": {},
+                    "FirstName": {},
+                    "Why_do_it__c": {},
+                    "X1st_Conversation__c": {},
+                    "Num_Assigned__c": {},
+                    "ConvertedOpportunityId": {},
+                    "Email": {},
+                    "Description": {},
+                    "Company": {},
+                    "AnnualRevenue": {},
+                    "Owner_Type__c": {},
+                    "Rating": {},
+                    "Dyno_Count__c": {},
+                    "Fax": {},
+                    "Hoovers_Industry__c": {},
+                    "Industry": {},
+                    "Assigned_Wk__c": {},
+                    "Free_Production_Apps__c": {},
+                    "Type_of_inquiry__c": {},
+                    "Risks__c": {}
+                },
+                "indexes": {
+                    "Related_Contact_Heroku_User__c": {
+                        "unique": false
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    },
+                    "ConvertedContactId": {
+                        "unique": false
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "Next_Direct_Rep__c",
+            "config": {
+                "sf_polling_seconds": 600,
+                "applied_at": "2015-04-09T04:25:12.066Z",
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "fields": {
+                    "CreatedDate": {},
+                    "Id": {},
+                    "Next_Rep__c": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "Name": {}
+                },
+                "sf_notify_enabled": false,
+                "indexes": {
+                    "Id": {
+                        "unique": true
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "Online_Sales_Account_Assignment__c",
+            "config": {
+                "access": "read_write",
+                "sf_notify_enabled": false,
+                "sf_polling_seconds": 600,
+                "sf_max_daily_api_calls": 30000,
+                "fields": {
+                    "Backfill_Date__c": {},
+                    "Current_Owner_SFID__c": {},
+                    "Assignment_Date__c": {},
+                    "Account_SFID__c": {},
+                    "Account_Name__c": {},
+                    "ID__c": {},
+                    "LastViewedDate": {},
+                    "New_Owner_SFID__c": {},
+                    "New_Owner_Sales_Type__c": {},
+                    "Name": {},
+                    "XVA_ID__c": {},
+                    "Assignment_Reason__c": {},
+                    "Assignment_Processed_At__c": {},
+                    "LastModifiedDate": {},
+                    "MayEdit": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "LastModifiedById": {},
+                    "End_Date__c": {},
+                    "IsLocked": {},
+                    "CreatedDate": {},
+                    "Start_Date__c": {},
+                    "CreatedById": {},
+                    "Id": {},
+                    "Incubator_Consumer_ID__c": {},
+                    "LastReferencedDate": {},
+                    "Last_Month_Spend_Dollar__c": {}
+                },
+                "indexes": {
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                },
+                "applied_at": "2021-10-27T16:13:44.161752Z"
+            }
+        },
+        {
+            "object_name": "OpportunityFieldHistory",
+            "config": {
+                "sf_polling_seconds": 600,
+                "sf_max_daily_api_calls": 30000,
+                "fields": {
+                    "OldValue": {},
+                    "CreatedDate": {},
+                    "IsDeleted": {},
+                    "Field": {},
+                    "CreatedById": {},
+                    "OpportunityId": {},
+                    "NewValue": {},
+                    "Id": {}
+                },
+                "sf_notify_enabled": false,
+                "access": "read_only",
+                "indexes": {
+                    "Id": {
+                        "unique": true
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "OpportunityHistory",
+            "config": {
+                "sf_notify_enabled": false,
+                "sf_polling_seconds": 600,
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_only",
+                "fields": {
+                    "IsDeleted": {},
+                    "ExpectedRevenue": {},
+                    "CloseDate": {},
+                    "StageName": {},
+                    "Amount": {},
+                    "Id": {},
+                    "OpportunityId": {},
+                    "ForecastCategory": {},
+                    "Probability": {},
+                    "CreatedDate": {},
+                    "SystemModstamp": {},
+                    "CreatedById": {}
+                },
+                "indexes": {
+                    "Id": {
+                        "unique": true
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "Order",
+            "config": {
+                "sf_polling_seconds": 600,
+                "fields": {
+                    "SKU__c": {},
+                    "Actual_Product__c": {},
+                    "CreatedDate": {},
+                    "OrgH_Order_Type__c": {},
+                    "Type": {},
+                    "Product_Limit__c": {},
+                    "SystemModstamp": {},
+                    "Id": {},
+                    "EffectiveDate": {},
+                    "SKU_QTY__c": {},
+                    "IsDeleted": {},
+                    "EndDate": {},
+                    "OpportunityId": {}
+                },
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_only",
+                "indexes": {
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                },
+                "sf_notify_enabled": false
+            }
+        },
+        {
+            "object_name": "Org62_Account_Heroku__c",
+            "config": {
+                "indexes": {
+                    "sfid_18__c": {
+                        "unique": true
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                },
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "upsert_field": "sfid_18__c",
+                "applied_at": "2018-08-24T19:21:20.665019Z",
+                "sf_polling_seconds": 600,
+                "sf_notify_enabled": false,
+                "fields": {
+                    "H_Org_Segment__c": {},
+                    "currencyisocode__c": {},
+                    "Heroku_AE__c": {},
+                    "billingstreet__c": {},
+                    "Industry__c": {},
+                    "Data_Storage_Used_MB__c": {},
+                    "HOrg_Heroku_AE_ID__c": {},
+                    "Account_Number__c": {},
+                    "billingcountry__c": {},
+                    "Website__c": {},
+                    "Org62_Heroku_AE_ID__c": {},
+                    "Org62_Account_Heroku_Name_full__c": {},
+                    "sfid_18__c": {},
+                    "heroku_ae_mgr__c": {},
+                    "Team_Territory__c": {},
+                    "Name": {},
+                    "orgstatus__c": {},
+                    "billingstate__c": {},
+                    "LastModifiedDate": {},
+                    "Data_Storage_Allowance_MB__c": {},
+                    "sfid_15__c": {},
+                    "OwnerId": {},
+                    "Region__c": {},
+                    "MayEdit": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "billingpostalcode__c": {},
+                    "LastModifiedById": {},
+                    "LastActivityDate": {},
+                    "Territory_Name__c": {},
+                    "HOrg_Account_ID__c": {},
+                    "IsLocked": {},
+                    "Billing_City__c": {},
+                    "CreatedDate": {},
+                    "CreatedById": {},
+                    "Id": {},
+                    "heroku_ae_managerid__c": {},
+                    "recordtypeid__c": {},
+                    "numberofemployees__c": {},
+                    "parentid__c": {},
+                    "Domain__c": {}
+                }
+            }
+        },
+        {
+            "object_name": "Org62_Opportunity_Heroku__c",
+            "config": {
+                "indexes": {
+                    "LastModifiedDate": {
+                        "unique": false
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "sfid__c": {
+                        "unique": true
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                },
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "upsert_field": "sfid__c",
+                "applied_at": "2018-08-24T14:55:49.876328Z",
+                "sf_polling_seconds": 600,
+                "sf_notify_enabled": false,
+                "fields": {
+                    "currencyisocode__c": {},
+                    "Manager_Forecast_Judgment__c": {},
+                    "Territory__c": {},
+                    "AmountConverted__c": {},
+                    "Type__c": {},
+                    "sfbase_ACV__c": {},
+                    "forecastcategory__c": {},
+                    "closed_cy_mo__c": {},
+                    "Amount__c": {},
+                    "Name": {},
+                    "Owner_Name__c": {},
+                    "HKU_Total__c": {},
+                    "HKU_Total_Adjusted__c": {},
+                    "closed_fy_qtr__c": {},
+                    "IsClosed__c": {},
+                    "LastModifiedDate": {},
+                    "OwnerId": {},
+                    "MayEdit": {},
+                    "hku_total_acv_adj__c": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "Org62_Opportunity_Heroku_Name_Full__c": {},
+                    "LastModifiedById": {},
+                    "closed_fy_yr__c": {},
+                    "sfid15__c": {},
+                    "horg_oppt_id__c": {},
+                    "LastActivityDate": {},
+                    "horg_segment__c": {},
+                    "IsLocked": {},
+                    "sfid__c": {},
+                    "CreatedDate": {},
+                    "Status_WLO__c": {},
+                    "accountid15__c": {},
+                    "IsWon__c": {},
+                    "sfbase_ACV_Converted__c": {},
+                    "Amount_Converted__c": {},
+                    "stagename__c": {},
+                    "CreatedById": {},
+                    "Id": {},
+                    "accountid__c": {},
+                    "closedate__c": {},
+                    "forecastcategoryname__c": {}
+                }
+            }
+        },
+        {
+            "object_name": "Org_Member__c",
+            "config": {
+                "indexes": {
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    }
+                },
+                "sf_notify_enabled": false,
+                "fields": {
+                    "Member__c": {},
+                    "Deleted_At__c": {},
+                    "Name": {},
+                    "Updated_At__c": {},
+                    "Role__c": {},
+                    "LastModifiedDate": {},
+                    "OwnerId": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "LastModifiedById": {},
+                    "LastActivityDate": {},
+                    "CreatedDate": {},
+                    "Created_At__c": {},
+                    "CreatedById": {},
+                    "Id": {},
+                    "Org__c": {}
+                },
+                "access": "read_write",
+                "sf_max_daily_api_calls": 30000,
+                "applied_at": "2018-10-19T22:24:21.517874Z",
+                "sf_polling_seconds": 600
+            }
+        },
+        {
+            "object_name": "Partner_Add_On_Revenue__c",
+            "config": {
+                "access": "read_write",
+                "sf_notify_enabled": false,
+                "sf_polling_seconds": 600,
+                "sf_max_daily_api_calls": 30000,
+                "fields": {
+                    "Total_Usage_Revenue__c": {},
+                    "Total_Heroku_Rev_Share__c": {},
+                    "Heroku_Revenue_Share__c": {},
+                    "Heroku_Enterprise_Rev_Share__c": {},
+                    "Online_Partner_Add_on_Revenue_Internal__c": {},
+                    "Online_Partner_Add_on_Revenue__c": {},
+                    "Customer_Billings__c": {},
+                    "Partner_Add_on_Rev_Share__c": {},
+                    "Name": {},
+                    "Partner_Add_On__c": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "Billing_Date__c": {},
+                    "Heroku_Online_Rev_Share__c": {},
+                    "Enterprise_Partner_Add_on_Revenue__c": {},
+                    "Provider_Revenue_Share__c": {},
+                    "CreatedDate": {},
+                    "Enterprise_Partner_Add_on_Revenue_Inter__c": {},
+                    "Id": {}
+                },
+                "indexes": {
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                },
+                "applied_at": "2020-07-20T20:34:51.827044Z"
+            }
+        },
+        {
+            "object_name": "Partner_Add_On__c",
+            "config": {
+                "access": "read_write",
+                "sf_notify_enabled": false,
+                "sf_polling_seconds": 600,
+                "sf_max_daily_api_calls": 30000,
+                "fields": {
+                    "Add_On_Contact__c": {},
+                    "Name": {},
+                    "Address__c": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "Status__c": {},
+                    "CreatedDate": {},
+                    "Add_on_Account__c": {},
+                    "Administrator_Email__c": {},
+                    "Id": {}
+                },
+                "indexes": {
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                },
+                "applied_at": "2020-05-29T22:17:39.712415Z"
+            }
+        },
+        {
+            "object_name": "Partner_Referral__c",
+            "config": {
+                "sf_polling_seconds": 600,
+                "applied_at": "2015-07-13T21:48:02.709Z",
+                "sf_notify_enabled": false,
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "fields": {
+                    "OwnerId": {},
+                    "Referral_Origin__c": {},
+                    "Status__c": {},
+                    "Contact_Name__c": {},
+                    "Related_Partner__c": {},
+                    "MBE__c": {},
+                    "LastModifiedDate": {},
+                    "Heroku_Product_Opportunity__c": {},
+                    "Budget__c": {},
+                    "Close_Date__c": {},
+                    "Month_Closed__c": {},
+                    "Name": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "Timelines__c": {},
+                    "CreatedDate": {},
+                    "LastModifiedById": {},
+                    "Referral_Company_Name__c": {},
+                    "Contact_Phone__c": {},
+                    "Region__c": {},
+                    "Preferred_Method_of_Contact__c": {},
+                    "CreatedById": {},
+                    "Partner_Owner__c": {},
+                    "LastActivityDate": {},
+                    "Related_Salesforce_62_Org_Links_Details__c": {},
+                    "Id": {},
+                    "Contact_Email__c": {},
+                    "Scope_of_work__c": {}
+                },
+                "indexes": {
+                    "LastModifiedDate": {
+                        "unique": false
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "Pricebook2",
+            "config": {
+                "sf_polling_seconds": 600,
+                "applied_at": "2015-03-10T07:05:27.463Z",
+                "sf_notify_enabled": false,
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "fields": {
+                    "CreatedDate": {},
+                    "Name": {},
+                    "LastModifiedById": {},
+                    "LastReferencedDate": {},
+                    "IsStandard": {},
+                    "IsActive": {},
+                    "Description": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "LastModifiedDate": {},
+                    "LastViewedDate": {},
+                    "CreatedById": {},
+                    "Id": {}
+                },
+                "indexes": {
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "PricebookEntry",
+            "config": {
+                "sf_polling_seconds": 600,
+                "applied_at": "2015-03-10T07:05:08.606Z",
+                "sf_notify_enabled": false,
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "fields": {
+                    "CreatedDate": {},
+                    "UnitPrice": {},
+                    "LastModifiedById": {},
+                    "UseStandardPrice": {},
+                    "ProductCode": {},
+                    "IsActive": {},
+                    "Pricebook2Id": {},
+                    "Id": {},
+                    "IsDeleted": {},
+                    "Product2Id": {},
+                    "Name": {},
+                    "SystemModstamp": {},
+                    "LastModifiedDate": {}
+                },
+                "indexes": {
+                    "Id": {
+                        "unique": true
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "ProModules__c",
+            "config": {
+                "access": "read_write",
+                "indexes": {
+                    "Id": {
+                        "unique": true
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    }
+                },
+                "applied_at": "2017-04-24T19:13:04.661275Z",
+                "sf_polling_seconds": 600,
+                "fields": {
+                    "Id": {},
+                    "ReportTitle__c": {},
+                    "App__c": {},
+                    "CreatedDate": {},
+                    "CSAOwner__c": {},
+                    "Contact__c": {},
+                    "ReportURL__c": {},
+                    "ModuleType__c": {},
+                    "Tags__c": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "CreatedById": {},
+                    "DateDelivered__c": {},
+                    "Account__c": {},
+                    "Name": {},
+                    "Ticket__c": {}
+                },
+                "sf_max_daily_api_calls": 30000,
+                "sf_notify_enabled": false
+            }
+        },
+        {
+            "object_name": "Product2",
+            "config": {
+                "sf_polling_seconds": 600,
+                "applied_at": "2015-07-22T17:59:47.188784Z",
+                "sf_notify_enabled": false,
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "fields": {
+                    "Allocation__c": {},
+                    "Family": {},
+                    "Name": {},
+                    "LastModifiedDate": {},
+                    "IsDeleted": {},
+                    "IsActive": {},
+                    "SystemModstamp": {},
+                    "LastModifiedById": {},
+                    "CreatedDate": {},
+                    "Flag__c": {},
+                    "CreatedById": {},
+                    "Id": {},
+                    "ProductCode": {},
+                    "Description": {}
+                },
+                "indexes": {
+                    "LastModifiedDate": {
+                        "unique": false
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "Profile",
+            "config": {
+                "sf_polling_seconds": 600,
+                "applied_at": "2014-11-26T23:51:39.430Z",
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_only",
+                "fields": {
+                    "LastReferencedDate": {},
+                    "LastModifiedById": {},
+                    "CreatedDate": {},
+                    "Id": {},
+                    "UserLicenseId": {},
+                    "Description": {},
+                    "Name": {},
+                    "LastModifiedDate": {},
+                    "LastViewedDate": {},
+                    "CreatedById": {},
+                    "UserType": {}
+                },
+                "sf_notify_enabled": false,
+                "indexes": {
+                    "Id": {
+                        "unique": true
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "RecordType",
+            "config": {
+                "sf_polling_seconds": 600,
+                "applied_at": "2014-11-26T23:51:39.569Z",
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "fields": {
+                    "BusinessProcessId": {},
+                    "LastModifiedById": {},
+                    "CreatedDate": {},
+                    "DeveloperName": {},
+                    "Id": {},
+                    "IsActive": {},
+                    "NamespacePrefix": {},
+                    "Name": {},
+                    "IsPersonType": {},
+                    "SobjectType": {},
+                    "SystemModstamp": {},
+                    "CreatedById": {},
+                    "LastModifiedDate": {}
+                },
+                "sf_notify_enabled": false,
+                "indexes": {
+                    "Id": {
+                        "unique": true
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "Task",
+            "config": {
+                "access": "read_write",
+                "sf_max_daily_api_calls": 30000,
+                "indexes": {
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    },
+                    "Subject": {
+                        "unique": false
+                    }
+                },
+                "sf_polling_seconds": 600,
+                "applied_at": "2016-05-03T18:43:47.645434Z",
+                "fields": {
+                    "Object__c": {},
+                    "Priority": {},
+                    "AccountId": {},
+                    "Subject": {},
+                    "IsArchived": {},
+                    "OwnerId": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "Status": {},
+                    "CreatedDate": {},
+                    "IsClosed": {},
+                    "WhoId": {},
+                    "Reply__c": {},
+                    "Id": {},
+                    "Description": {},
+                    "Num_Activities__c": {},
+                    "WhatId": {}
+                },
+                "sf_notify_enabled": false
+            }
+        },
+        {
+            "object_name": "Vendor_Owner__c",
+            "config": {
+                "sf_polling_seconds": 600,
+                "applied_at": "2014-11-26T23:51:40.149Z",
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "fields": {
+                    "CreatedDate": {},
+                    "Vendor__c": {},
+                    "LastModifiedById": {},
+                    "User__c": {},
+                    "Id": {},
+                    "CreatedById": {},
+                    "Is_Me__c": {},
+                    "Name": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "Vendor__c__Trello_Card_Id__c": {},
+                    "Unique_Ownership__c": {},
+                    "LastModifiedDate": {}
+                },
+                "sf_notify_enabled": false,
+                "indexes": {
+                    "Id": {
+                        "unique": true
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Vendor__c": {
+                        "unique": false
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "Vendor__c",
+            "config": {
+                "sf_polling_seconds": 600,
+                "applied_at": "2015-04-02T21:17:01.279Z",
+                "sf_notify_enabled": false,
+                "sf_max_daily_api_calls": 30000,
+                "access": "read_write",
+                "fields": {
+                    "LastReferencedDate": {},
+                    "Trello_Card_Id__c": {},
+                    "Status__c": {},
+                    "Customer_data_approval__c": {},
+                    "Trello_URL__c": {},
+                    "Services_provided__c": {},
+                    "Name": {},
+                    "IsDeleted": {},
+                    "SystemModstamp": {},
+                    "Last_Trello_Import__c": {},
+                    "LastViewedDate": {},
+                    "OwnerId": {},
+                    "CreatedDate": {},
+                    "Critical_path__c": {},
+                    "LastModifiedById": {},
+                    "Department__c": {},
+                    "Unique_Name__c": {},
+                    "Payment_method__c": {},
+                    "CreatedById": {},
+                    "Vendor_point_of_contact__c": {},
+                    "LastModifiedDate": {},
+                    "LastActivityDate": {},
+                    "Access_Method__c": {},
+                    "Description__c": {},
+                    "Id": {},
+                    "Safe_Harbor_Compliant__c": {},
+                    "Adminstrator__c": {}
+                },
+                "indexes": {
+                    "Trello_Card_Id__c": {
+                        "unique": true
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "LastModifiedDate": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                }
+            }
+        },
+        {
+            "object_name": "cbit__Clearbit__c",
+            "config": {
+                "sf_polling_seconds": 600,
+                "access": "read_write",
+                "fields": {
+                    "cbit__CompanyFacebookLikes__c": {},
+                    "cbit__AboutmeHandle__c": {},
+                    "cbit__Avatar__c": {},
+                    "cbit__Account__c": {},
+                    "cbit__EmploymentTitle__c": {},
+                    "cbit__CompanyMetricsAlexaGlobalRank__c": {},
+                    "cbit__TwitterAvatar__c": {},
+                    "cbit__CompanyGeoLat__c": {},
+                    "cbit__EmploymentName__c": {},
+                    "cbit__CompanyFacebookHandle__c": {},
+                    "cbit__Fuzzy__c": {},
+                    "cbit__Location__c": {},
+                    "cbit__Twitterbio__c": {},
+                    "cbit__CompanyName__c": {},
+                    "cbit__TwitterLocation__c": {},
+                    "cbit__CompanyLogo__c": {},
+                    "cbit__Geolng__c": {},
+                    "cbit__Bio__c": {},
+                    "cbit__CompanyTicker__c": {},
+                    "cbit__AngellistHandle__c": {},
+                    "cbit__CompanyMetricsAlexaUsRank__c": {},
+                    "cbit__ShortName__c": {},
+                    "cbit__CompanyUrl__c": {},
+                    "cbit__CompanyAngelListBio__c": {},
+                    "cbit__Status__c": {},
+                    "LastViewedDate": {},
+                    "cbit__CompanyPhone__c": {},
+                    "cbit__EmploymentDomain__c": {},
+                    "cbit__CompanyEmailProvider__c": {},
+                    "cbit__CompanyCrunchbaseHandle__c": {},
+                    "cbit__CompanyLinkedinHandle__c": {},
+                    "cbit__CompanyGeoCountry__c": {},
+                    "cbit__Geolat__c": {},
+                    "Name": {},
+                    "cbit__FacebookHandle__c": {},
+                    "cbit__CompanyDomain__c": {},
+                    "cbit__CompanyCategorySector__c": {},
+                    "cbit__CompanyGeoPostalCode__c": {},
+                    "cbit__ShortBio__c": {},
+                    "cbit__ShortCompanyName__c": {},
+                    "cbit__Contact__c": {},
+                    "LastModifiedDate": {},
+                    "cbit__GithubHandle__c": {},
+                    "cbit__CompanyTwitterFollowers__c": {},
+                    "cbit__CompanyMetricsEmployees__c": {},
+                    "cbit__CompanyMetricsGoogleRank__c": {},
+                    "OwnerId": {},
+                    "cbit__CompanyTwitterLocation__c": {},
+                    "cbit__CompanyAngelListHandle__c": {},
+                    "IsDeleted": {},
+                    "cbit__CompanyGeoState__c": {},
+                    "cbit__NameGivenName__c": {},
+                    "SystemModstamp": {},
+                    "cbit__Company__c": {},
+                    "cbit__CompanyAngelListSite__c": {},
+                    "cbit__AngellistBio__c": {},
+                    "LastModifiedById": {},
+                    "cbit__Email__c": {},
+                    "cbit__GeoCity__c": {},
+                    "cbit__Site__c": {},
+                    "cbit__CompanyTwitterFollowing__c": {},
+                    "cbit__CompanyLegalName__c": {},
+                    "cbit__TwitterHandle__c": {},
+                    "cbit__GithubCompany__c": {},
+                    "cbit__TwitterSite__c": {},
+                    "cbit__CompanyCategoryIndustryGroup__c": {},
+                    "cbit__LinkedinHandle__c": {},
+                    "cbit__GeoCountry__c": {},
+                    "cbit__NameFullName__c": {},
+                    "cbit__CompanyCategoryIndustry__c": {},
+                    "cbit__GithubBlog__c": {},
+                    "cbit__CompanyGeoSubPremise__c": {},
+                    "cbit__CompanyAngelListBlog__c": {},
+                    "cbit__CompanyId__c": {},
+                    "cbit__CompanyType__c": {},
+                    "cbit__AboutmeBio__c": {},
+                    "cbit__CompanyCategorySubIndustry__c": {},
+                    "CreatedDate": {},
+                    "cbit__CompanyTags__c": {},
+                    "cbit__CompanyGeoStreetName__c": {},
+                    "cbit__TwitterFollowers__c": {},
+                    "cbit__Gender__c": {},
+                    "cbit__GeoState__c": {},
+                    "cbit__CompanyGeoStreetNumber__c": {},
+                    "cbit__CompanyTech__c": {},
+                    "cbit__CompanyGeoCity__c": {},
+                    "cbit__CompanyAngelListFollowers__c": {},
+                    "CreatedById": {},
+                    "cbit__CompanyDescription__c": {},
+                    "cbit__CompanyTwitterHandle__c": {},
+                    "cbit__GithubFollowers__c": {},
+                    "cbit__CompanyLocation__c": {},
+                    "Id": {},
+                    "cbit__CompanyMetricsRaised__c": {},
+                    "cbit__TwitterFollowing__c": {},
+                    "cbit__CompanyTwitterbio__c": {},
+                    "cbit__CompanyGeoLng__c": {},
+                    "cbit__ShortLocation__c": {},
+                    "cbit__ShortCompanyCategories__c": {},
+                    "cbit__CompanyTwitterSite__c": {},
+                    "cbit__Lead__c": {},
+                    "LastReferencedDate": {},
+                    "cbit__GithubAvatar__c": {},
+                    "cbit__Id__c": {},
+                    "cbit__GoogleplusHandle__c": {},
+                    "cbit__GithubFollowing__c": {},
+                    "cbit__TwitterId__c": {},
+                    "cbit__NameFamilyName__c": {}
+                },
+                "sf_notify_enabled": false,
+                "indexes": {
+                    "LastModifiedDate": {
+                        "unique": false
+                    },
+                    "SystemModstamp": {
+                        "unique": false
+                    },
+                    "Id": {
+                        "unique": true
+                    }
+                },
+                "applied_at": "2018-11-18T20:37:34.862760Z",
+                "sf_max_daily_api_calls": 30000
+            }
+        }
+    ],
+    "connection": {
+        "app_name": "heroku-data-warehouse-prv",
+        "organization_id": "00D30000000osTNEAY",
+        "exported_at": "2024-05-15T14:23:55.973438+00:00",
+        "features": {
+            "disable_bulk_writes": false,
+            "poll_db_no_merge": true,
+            "poll_external_ids": false,
+            "rest_count_only": false,
+            "ucs_basic_collation_index": false
+        },
+        "api_version": "58.0",
+        "name": "DWH",
+        "logplex_log_enabled": true
+    },
+    "version": 1
+}

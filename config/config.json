@@ -1,0 +1,9 @@
+{
+  "database_url": "your_database_url_here",
+  "api_key": "your_api_key_here",
+  "other_settings": {
+    "setting1": "value1",
+    "setting2": "value2"
+  }
+}
+
